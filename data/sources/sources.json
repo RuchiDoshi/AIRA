@@ -1,0 +1,17 @@
+[
+  {
+    "name": "NEB",
+    "base_url": "https://www.neb.com",
+    "notes": "Enzyme product pages and selection charts; some pages are protected from bots."
+  },
+  {
+    "name": "REBASE",
+    "base_url": "https://rebase.neb.com",
+    "notes": "Restriction enzyme reference database."
+  },
+  {
+    "name": "PubChem",
+    "base_url": "https://pubchem.ncbi.nlm.nih.gov",
+    "notes": "Chemical properties and hazards; has APIs."
+  }
+]
