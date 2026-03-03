@@ -1,0 +1,1430 @@
+[
+    {
+        "name": "AclI",
+        "recognition_sequence": "AA/CGTT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HindIII-HF\u00ae HindIII",
+        "recognition_sequence": "A/AGCTT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SspI-HF\u00ae",
+        "recognition_sequence": "AAT/ATT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MluCI",
+        "recognition_sequence": "/AATT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PciI",
+        "recognition_sequence": "A/CATGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AgeI-HF\u00ae",
+        "recognition_sequence": "A/CCGGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BfuAI BspMI",
+        "recognition_sequence": "ACCTGC(4/8)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SexAI",
+        "recognition_sequence": "A/CCWGGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MluI-HF\u00ae",
+        "recognition_sequence": "A/CGCGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BceAI",
+        "recognition_sequence": "ACGGC(12/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HpyCH4IV",
+        "recognition_sequence": "A/CGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HpyCH4III",
+        "recognition_sequence": "ACN/GT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BaeI",
+        "recognition_sequence": "(10/15)ACNNNNGTAYC(12/7)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaXI",
+        "recognition_sequence": "(9/12)ACNNNNNCTCC(10/7)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AflIII",
+        "recognition_sequence": "A/CRYGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SpeI-HF\u00ae",
+        "recognition_sequence": "A/CTAGT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsrI",
+        "recognition_sequence": "ACTGG(1/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BmrI",
+        "recognition_sequence": "ACTGGG(5/4)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BglII",
+        "recognition_sequence": "A/GATCT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AfeI",
+        "recognition_sequence": "AGC/GCT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AluI",
+        "recognition_sequence": "AG/CT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "StuI",
+        "recognition_sequence": "AGG/CCT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ScaI-HF\u00ae",
+        "recognition_sequence": "AGT/ACT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BspDI ClaI",
+        "recognition_sequence": "AT/CGAT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PI-SceI",
+        "recognition_sequence": "ATCTATGTCGGGTGCGGAGAAAGAGGTAAT(-15/-19)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NsiI-HF\u00ae NsiI",
+        "recognition_sequence": "ATGCA/T",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AseI",
+        "recognition_sequence": "AT/TAAT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SwaI",
+        "recognition_sequence": "ATTT/AAAT",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "CspCI",
+        "recognition_sequence": "(11/13)CAANNNNNGTGG(12/10)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MfeI-HF\u00ae",
+        "recognition_sequence": "C/AATTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PaqCI",
+        "recognition_sequence": "CACCTGC(4/8)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BssSI-v2",
+        "recognition_sequence": "CACGAG(-5/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nb.BssSI",
+        "recognition_sequence": "CACGAG(none/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BmgBI",
+        "recognition_sequence": "CACGTC(-3/-3)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PmlI",
+        "recognition_sequence": "CAC/GTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "DraIII-HF\u00ae",
+        "recognition_sequence": "CACNNN/GTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AleI-v2",
+        "recognition_sequence": "CACNN/NNGTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EcoP15I",
+        "recognition_sequence": "CAGCAG(25/27)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PvuII-HF\u00ae PvuII",
+        "recognition_sequence": "CAG/CTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AlwNI",
+        "recognition_sequence": "CAGNNN/CTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BtsIMutI",
+        "recognition_sequence": "CAGTG(2/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NdeI",
+        "recognition_sequence": "CA/TATG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "FatI",
+        "recognition_sequence": "/CATG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NlaIII",
+        "recognition_sequence": "CATG/",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MslI",
+        "recognition_sequence": "CAYNN/NNRTG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "XcmI",
+        "recognition_sequence": "CCANNNNN/NNNNTGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstXI",
+        "recognition_sequence": "CCANNNNN/NTGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PflMI",
+        "recognition_sequence": "CCANNNN/NTGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BccI",
+        "recognition_sequence": "CCATC(4/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NcoI NcoI-HF\u00ae",
+        "recognition_sequence": "C/CATGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BseYI",
+        "recognition_sequence": "CCCAGC(-5/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "FauI",
+        "recognition_sequence": "CCCGC(4/6)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "TspMI XmaI",
+        "recognition_sequence": "C/CCGGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SmaI",
+        "recognition_sequence": "CCC/GGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.CviPII",
+        "recognition_sequence": "CCD(-3/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AciI",
+        "recognition_sequence": "CCGC(-3/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SacII",
+        "recognition_sequence": "CCGC/GG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsrBI",
+        "recognition_sequence": "CCGCTC(-3/-3)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MspI HpaII",
+        "recognition_sequence": "C/CGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ScrFI",
+        "recognition_sequence": "CC/NGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "StyD4I",
+        "recognition_sequence": "/CCNGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaJI",
+        "recognition_sequence": "C/CNNGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BslI",
+        "recognition_sequence": "CCNNNNN/NNGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BtgI",
+        "recognition_sequence": "C/CRYGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NciI",
+        "recognition_sequence": "CC/SGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AvrII",
+        "recognition_sequence": "C/CTAGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MnlI",
+        "recognition_sequence": "CCTC(7/6)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BbvCI",
+        "recognition_sequence": "CCTCAGC(-5/-2)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.BbvCI",
+        "recognition_sequence": "CCTCAGC(-5/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nb.BbvCI",
+        "recognition_sequence": "CCTCAGC(none/-2)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SbfI-HF\u00ae",
+        "recognition_sequence": "CCTGCA/GG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Bpu10I",
+        "recognition_sequence": "CCTNAGC(-5/-2)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Bsu36I",
+        "recognition_sequence": "CC/TNAGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EcoNI",
+        "recognition_sequence": "CCTNN/NNNAGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HpyAV",
+        "recognition_sequence": "CCTTC(6/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstNI",
+        "recognition_sequence": "CC/WGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PspGI",
+        "recognition_sequence": "/CCWGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "StyI-HF\u00ae",
+        "recognition_sequence": "C/CWWGG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BcgI",
+        "recognition_sequence": "(10/12)CGANNNNNNTGC(12/10)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PvuI-HF\u00ae",
+        "recognition_sequence": "CGAT/CG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstUI",
+        "recognition_sequence": "CG/CG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EagI-HF\u00ae",
+        "recognition_sequence": "C/GGCCG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "RsrII",
+        "recognition_sequence": "CG/GWCCG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsiEI",
+        "recognition_sequence": "CGRY/CG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsiWI BsiWI-HF\u00ae",
+        "recognition_sequence": "C/GTACG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Esp3I",
+        "recognition_sequence": "CGTCTC(1/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsmBI-v2",
+        "recognition_sequence": "CGTCTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Hpy99I",
+        "recognition_sequence": "CGWCG/",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MspA1I",
+        "recognition_sequence": "CMG/CKG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MspJI",
+        "recognition_sequence": "CNNR(9/13)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SgrAI",
+        "recognition_sequence": "CR/CCGGYG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BfaI",
+        "recognition_sequence": "C/TAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BspCNI",
+        "recognition_sequence": "CTCAG(9/7)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "XhoI PaeR7I",
+        "recognition_sequence": "C/TCGAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EarI",
+        "recognition_sequence": "CTCTTC(1/4)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AcuI",
+        "recognition_sequence": "CTGAAG(16/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PstI PstI-HF\u00ae",
+        "recognition_sequence": "CTGCA/G",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BpmI",
+        "recognition_sequence": "CTGGAG(16/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "DdeI",
+        "recognition_sequence": "C/TNAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SfcI",
+        "recognition_sequence": "C/TRYAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AflII",
+        "recognition_sequence": "C/TTAAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BpuEI",
+        "recognition_sequence": "CTTGAG(16/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SmlI",
+        "recognition_sequence": "C/TYRAG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsoBI AvaI",
+        "recognition_sequence": "C/YCGRG",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MboII",
+        "recognition_sequence": "GAAGA(8/7)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BbsI BbsI-HF\u00ae",
+        "recognition_sequence": "GAAGAC(2/6)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "XmnI",
+        "recognition_sequence": "GAANN/NNTTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsmI",
+        "recognition_sequence": "GAATGC(1/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nb.BsmI",
+        "recognition_sequence": "GAATGC(none/-1)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EcoRI-HF\u00ae EcoRI",
+        "recognition_sequence": "G/AATTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HgaI",
+        "recognition_sequence": "GACGC(5/10)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ZraI",
+        "recognition_sequence": "GAC/GTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AatII",
+        "recognition_sequence": "GACGT/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PflFI Tth111I",
+        "recognition_sequence": "GACN/NNGTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PshAI",
+        "recognition_sequence": "GACNN/NNGTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AhdI",
+        "recognition_sequence": "GACNNN/NNGTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "DrdI",
+        "recognition_sequence": "GACNNNN/NNGTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SacI-HF\u00ae",
+        "recognition_sequence": "GAGCT/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Eco53kI",
+        "recognition_sequence": "GAG/CTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BseRI",
+        "recognition_sequence": "GAGGAG(10/8)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MlyI",
+        "recognition_sequence": "GAGTC(5/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PleI",
+        "recognition_sequence": "GAGTC(4/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.BstNBI WarmStart\u00ae Nt.BstNBI",
+        "recognition_sequence": "GAGTC(4/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HinfI",
+        "recognition_sequence": "G/ANTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EcoRV-HF\u00ae EcoRV",
+        "recognition_sequence": "GAT/ATC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "DpnI",
+        "recognition_sequence": "GA/TC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Sau3AI MboI DpnII",
+        "recognition_sequence": "/GATC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaBI",
+        "recognition_sequence": "GATNN/NNATC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "TfiI",
+        "recognition_sequence": "G/AWTC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsrDI",
+        "recognition_sequence": "GCAATG(2/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nb.BsrDI",
+        "recognition_sequence": "GCAATG(none/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BbvI",
+        "recognition_sequence": "GCAGC(8/12)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BtsI-v2",
+        "recognition_sequence": "GCAGTG(2/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nb.BtsI",
+        "recognition_sequence": "GCAGTG(none/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstAPI",
+        "recognition_sequence": "GCANNNN/NTGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SfaNI",
+        "recognition_sequence": "GCATC(5/9)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SphI-HF\u00ae SphI",
+        "recognition_sequence": "GCATG/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SrfI",
+        "recognition_sequence": "GCCC/GGGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NmeAIII",
+        "recognition_sequence": "GCCGAG(21/19)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NaeI",
+        "recognition_sequence": "GCC/GGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NgoMIV",
+        "recognition_sequence": "G/CCGGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BglI",
+        "recognition_sequence": "GCCNNNN/NGGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AsiSI",
+        "recognition_sequence": "GCGAT/CGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BtgZI",
+        "recognition_sequence": "GCGATG(10/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HinP1I",
+        "recognition_sequence": "G/CGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HhaI",
+        "recognition_sequence": "GCG/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BssHII",
+        "recognition_sequence": "G/CGCGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NotI-HF\u00ae NotI",
+        "recognition_sequence": "GC/GGCCGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Fnu4HI",
+        "recognition_sequence": "GC/NGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Cac8I",
+        "recognition_sequence": "GCN/NGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MwoI",
+        "recognition_sequence": "GCNNNNN/NNGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BmtI-HF\u00ae",
+        "recognition_sequence": "GCTAG/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NheI-HF\u00ae",
+        "recognition_sequence": "G/CTAGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SapI BspQI BspQI-HF\u00ae",
+        "recognition_sequence": "GCTCTTC(1/4)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.BspQI",
+        "recognition_sequence": "GCTCTTC(1/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BlpI",
+        "recognition_sequence": "GC/TNAGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "TseI ApeKI",
+        "recognition_sequence": "G/CWGC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Bsp1286I",
+        "recognition_sequence": "GDGCH/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AlwI",
+        "recognition_sequence": "GGATC(4/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BamHI BamHI-HF\u00ae",
+        "recognition_sequence": "G/GATCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.AlwI",
+        "recognition_sequence": "GGATC(4/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BtsCI",
+        "recognition_sequence": "GGATG(2/0)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "FokI",
+        "recognition_sequence": "GGATG(9/13)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HaeIII",
+        "recognition_sequence": "GG/CC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "FseI",
+        "recognition_sequence": "GGCCGG/CC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SfiI",
+        "recognition_sequence": "GGCCNNNN/NGGCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SfoI",
+        "recognition_sequence": "GGC/GCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PluTI",
+        "recognition_sequence": "GGCGC/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NarI",
+        "recognition_sequence": "GG/CGCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "KasI",
+        "recognition_sequence": "G/GCGCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AscI",
+        "recognition_sequence": "GG/CGCGCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EciI",
+        "recognition_sequence": "GGCGGA(11/9)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsmFI",
+        "recognition_sequence": "GGGAC(10/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ApaI",
+        "recognition_sequence": "GGGCC/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PspOMI",
+        "recognition_sequence": "G/GGCCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Sau96I",
+        "recognition_sequence": "G/GNCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NlaIV",
+        "recognition_sequence": "GGN/NCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Acc65I",
+        "recognition_sequence": "G/GTACC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "KpnI-HF\u00ae",
+        "recognition_sequence": "GGTAC/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaI-HF\u00aev2",
+        "recognition_sequence": "GGTCTC(1/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HphI",
+        "recognition_sequence": "GGTGA(8/7)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstEII-HF\u00ae",
+        "recognition_sequence": "G/GTNACC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AvaII",
+        "recognition_sequence": "G/GWCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BanI",
+        "recognition_sequence": "G/GYRCC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BaeGI",
+        "recognition_sequence": "GKGCM/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaHI",
+        "recognition_sequence": "GR/CGYC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BanII",
+        "recognition_sequence": "GRGCY/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "RsaI",
+        "recognition_sequence": "GT/AC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "CviQI",
+        "recognition_sequence": "G/TAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstZ17I-HF\u00ae",
+        "recognition_sequence": "GTATAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BciVI",
+        "recognition_sequence": "GTATCC(6/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SalI SalI-HF\u00ae",
+        "recognition_sequence": "G/TCGAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsmAI BcoDI",
+        "recognition_sequence": "GTCTC(1/5)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Nt.BsmAI",
+        "recognition_sequence": "GTCTC(1/none)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ApaLI",
+        "recognition_sequence": "G/TGCAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsgI",
+        "recognition_sequence": "GTGCAG(16/14)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "AccI",
+        "recognition_sequence": "GT/MKAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Hpy166II",
+        "recognition_sequence": "GTN/NAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Tsp45I",
+        "recognition_sequence": "/GTSAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HpaI",
+        "recognition_sequence": "GTT/AAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PmeI",
+        "recognition_sequence": "GTTT/AAAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HincII",
+        "recognition_sequence": "GTY/RAC",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsiHKAI",
+        "recognition_sequence": "GWGCW/C",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "TspRI",
+        "recognition_sequence": "NNCASTGNN/",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "ApoI-HF",
+        "recognition_sequence": "R/AATTY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NspI",
+        "recognition_sequence": "RCATG/Y",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsrFI-v2",
+        "recognition_sequence": "R/CCGGY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstYI",
+        "recognition_sequence": "R/GATCY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HaeII",
+        "recognition_sequence": "RGCGC/Y",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "CviKI-1",
+        "recognition_sequence": "RG/CY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EcoO109I",
+        "recognition_sequence": "RG/GNCCY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PpuMI",
+        "recognition_sequence": "RG/GWCCY",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "I-CeuI",
+        "recognition_sequence": "TAACTATAACGGTCCTAAGGTAGCGAA(-9/-13)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "SnaBI",
+        "recognition_sequence": "TAC/GTA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "I-SceI",
+        "recognition_sequence": "TAGGGATAACAGGGTAAT(-9/-13)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BspHI",
+        "recognition_sequence": "T/CATGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BspEI",
+        "recognition_sequence": "T/CCGGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MmeI",
+        "recognition_sequence": "TCCRAC(20/18)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "TaqI-v2",
+        "recognition_sequence": "T/CGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "NruI-HF\u00ae",
+        "recognition_sequence": "TCG/CGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Hpy188I",
+        "recognition_sequence": "TCN/GA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "Hpy188III",
+        "recognition_sequence": "TC/NNGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "XbaI",
+        "recognition_sequence": "T/CTAGA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BclI-HF BclI",
+        "recognition_sequence": "T/GATCA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "HpyCH4V",
+        "recognition_sequence": "TG/CA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "FspI",
+        "recognition_sequence": "TGC/GCA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PI-PspI",
+        "recognition_sequence": "TGGCAAACAGCTATTATGGGTATTATGGGT(-13/-17)",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MscI",
+        "recognition_sequence": "TGG/CCA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsrGI-HF\u00ae",
+        "recognition_sequence": "T/GTACA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "MseI",
+        "recognition_sequence": "T/TAA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PacI",
+        "recognition_sequence": "TTAAT/TAA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PsiI-v2",
+        "recognition_sequence": "TTA/TAA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BstBI",
+        "recognition_sequence": "TT/CGAA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "DraI",
+        "recognition_sequence": "TTT/AAA",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "PspXI",
+        "recognition_sequence": "VC/TCGAGB",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaWI",
+        "recognition_sequence": "W/CCGGW",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "BsaAI",
+        "recognition_sequence": "YAC/GTR",
+        "details": "",
+        "dangerous": null
+    },
+    {
+        "name": "EaeI",
+        "recognition_sequence": "Y/GGCCR",
+        "details": "",
+        "dangerous": null
+    }
+]
