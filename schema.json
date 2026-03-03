@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/lab-mcp/reagent.schema.json",
+  "title": "Lab MCP Reagent Schema",
+  "type": "object",
+  "required": ["id", "name", "type", "category", "description", "source"],
+  "additionalProperties": false,
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (e.g., enzyme:restriction:ecori)"
+    },
+
+    "name": {
+      "type": "string",
+      "description": "Human-readable reagent name"
+    },
+
+    "type": {
+      "type": "string",
+      "enum": [
+        "restriction_enzyme",
+        "pcr_polymerase",
+        "ligase",
+        "nuclease",
+        "buffer",
+        "chemical",
+        "kit",
+        "other"
+      ]
+    },
+
+    "category": {
+      "type": "string",
+      "enum": ["enzyme", "chemical", "buffer", "kit", "other"]
+    },
+
+    "description": {
+      "type": "string"
+    },
+
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+
+    "storage": {
+      "type": "string"
+    },
+
+    "hazards": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ppe": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "applications": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+
+    "notes": {
+      "type": "string"
+    },
+
+    "vendor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "catalog_number": { "type": "string" },
+        "product_url": { "type": "string", "format": "uri" }
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "required": ["name", "url", "retrieved"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+
+    "recognition_sequence": {
+      "type": "string",
+      "description": "DNA sequence recognized by the enzyme"
+    },
+
+    "cut_site": {
+      "type": "string",
+      "description": "Text representation of cut position"
+    },
+
+    "overhang": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["5_prime", "3_prime", "blunt"]
+        },
+        "sequence": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+
+    "optimal_temperature_c": {
+      "type": "number"
+    },
+
+    "methylation_sensitivity": {
+      "type": "string"
+    },
+
+    "star_activity_notes": {
+      "type": "string"
+    },
+
+    "buffers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "formula": {
+      "type": "string"
+    },
+
+    "cas_number": {
+      "type": "string"
+    },
+
+    "state": {
+      "type": "string",
+      "enum": ["solid", "liquid", "gas"]
+    },
+
+    "incompatibilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "concentration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string" }
+      }
+    },
+
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "concentration"],
+        "properties": {
+          "name": { "type": "string" },
+          "concentration": { "type": "string" }
+        }
+      }
+    },
+
+    "ph": {
+      "type": "number"
+    },
+
+    "working_concentration": {
+      "type": "string"
+    }
+  },
+
+
+  "allOf": [
+    {
+      "if": {
+        "properties": { "type": { "const": "restriction_enzyme" } }
+      },
+      "then": {
+        "required": ["recognition_sequence"],
+        "properties": {
+          "category": { "const": "enzyme" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "type": { "const": "chemical" } }
+      },
+      "then": {
+        "properties": {
+          "category": { "const": "chemical" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "type": { "const": "buffer" } }
+      },
+      "then": {
+        "properties": {
+          "category": { "const": "buffer" }
+        }
+      }
+    }
+  ]
+}

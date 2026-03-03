@@ -1,0 +1,1430 @@
+[
+  {
+    "Recognition Sequence":"Recognition Sequence",
+    "Enzyme":"Enzyme",
+    "Unnamed: 2":"AA\/CGTT",
+    "Unnamed: 3":"AclI"
+  },
+  {
+    "Recognition Sequence":"A\/AGCTT",
+    "Enzyme":"HindIII-HF\u00ae HindIII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AAT\/ATT",
+    "Enzyme":"SspI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/AATT",
+    "Enzyme":"MluCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CATGT",
+    "Enzyme":"PciI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CCGGT",
+    "Enzyme":"AgeI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ACCTGC(4\/8)",
+    "Enzyme":"BfuAI BspMI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CCWGGT",
+    "Enzyme":"SexAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CGCGT",
+    "Enzyme":"MluI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ACGGC(12\/14)",
+    "Enzyme":"BceAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CGT",
+    "Enzyme":"HpyCH4IV",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ACN\/GT",
+    "Enzyme":"HpyCH4III",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"(10\/15)ACNNNNGTAYC(12\/7)",
+    "Enzyme":"BaeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"(9\/12)ACNNNNNCTCC(10\/7)",
+    "Enzyme":"BsaXI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CRYGT",
+    "Enzyme":"AflIII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/CTAGT",
+    "Enzyme":"SpeI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ACTGG(1\/-1)",
+    "Enzyme":"BsrI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ACTGGG(5\/4)",
+    "Enzyme":"BmrI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"A\/GATCT",
+    "Enzyme":"BglII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AGC\/GCT",
+    "Enzyme":"AfeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AG\/CT",
+    "Enzyme":"AluI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AGG\/CCT",
+    "Enzyme":"StuI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AGT\/ACT",
+    "Enzyme":"ScaI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AT\/CGAT",
+    "Enzyme":"BspDI ClaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ATCTATGTCGGGTGCGGAGAAAGAGGTAAT(-15\/-19)",
+    "Enzyme":"PI-SceI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ATGCA\/T",
+    "Enzyme":"NsiI-HF\u00ae NsiI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"AT\/TAAT",
+    "Enzyme":"AseI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"ATTT\/AAAT",
+    "Enzyme":"SwaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"(11\/13)CAANNNNNGTGG(12\/10)",
+    "Enzyme":"CspCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/AATTG",
+    "Enzyme":"MfeI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACCTGC(4\/8)",
+    "Enzyme":"PaqCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACGAG(-5\/-1)",
+    "Enzyme":"BssSI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACGAG(none\/-1)",
+    "Enzyme":"Nb.BssSI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACGTC(-3\/-3)",
+    "Enzyme":"BmgBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAC\/GTG",
+    "Enzyme":"PmlI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACNNN\/GTG",
+    "Enzyme":"DraIII-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CACNN\/NNGTG",
+    "Enzyme":"AleI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAGCAG(25\/27)",
+    "Enzyme":"EcoP15I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAG\/CTG",
+    "Enzyme":"PvuII-HF\u00ae PvuII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAGNNN\/CTG",
+    "Enzyme":"AlwNI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAGTG(2\/0)",
+    "Enzyme":"BtsIMutI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CA\/TATG",
+    "Enzyme":"NdeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/CATG",
+    "Enzyme":"FatI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CATG\/",
+    "Enzyme":"NlaIII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CAYNN\/NNRTG",
+    "Enzyme":"MslI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCANNNNN\/NNNNTGG",
+    "Enzyme":"XcmI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCANNNNN\/NTGG",
+    "Enzyme":"BstXI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCANNNN\/NTGG",
+    "Enzyme":"PflMI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCATC(4\/5)",
+    "Enzyme":"BccI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CATGG",
+    "Enzyme":"NcoI NcoI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCCAGC(-5\/-1)",
+    "Enzyme":"BseYI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCCGC(4\/6)",
+    "Enzyme":"FauI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CCGGG",
+    "Enzyme":"TspMI XmaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCC\/GGG",
+    "Enzyme":"SmaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCD(-3\/none)",
+    "Enzyme":"Nt.CviPII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCGC(-3\/-1)",
+    "Enzyme":"AciI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCGC\/GG",
+    "Enzyme":"SacII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCGCTC(-3\/-3)",
+    "Enzyme":"BsrBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CGG",
+    "Enzyme":"MspI HpaII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CC\/NGG",
+    "Enzyme":"ScrFI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/CCNGG",
+    "Enzyme":"StyD4I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CNNGG",
+    "Enzyme":"BsaJI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCNNNNN\/NNGG",
+    "Enzyme":"BslI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CRYGG",
+    "Enzyme":"BtgI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CC\/SGG",
+    "Enzyme":"NciI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CTAGG",
+    "Enzyme":"AvrII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTC(7\/6)",
+    "Enzyme":"MnlI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTCAGC(-5\/-2)",
+    "Enzyme":"BbvCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTCAGC(-5\/none)",
+    "Enzyme":"Nt.BbvCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTCAGC(none\/-2)",
+    "Enzyme":"Nb.BbvCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTGCA\/GG",
+    "Enzyme":"SbfI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTNAGC(-5\/-2)",
+    "Enzyme":"Bpu10I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CC\/TNAGG",
+    "Enzyme":"Bsu36I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTNN\/NNNAGG",
+    "Enzyme":"EcoNI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CCTTC(6\/5)",
+    "Enzyme":"HpyAV",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CC\/WGG",
+    "Enzyme":"BstNI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/CCWGG",
+    "Enzyme":"PspGI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/CWWGG",
+    "Enzyme":"StyI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"(10\/12)CGANNNNNNTGC(12\/10)",
+    "Enzyme":"BcgI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CGAT\/CG",
+    "Enzyme":"PvuI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CG\/CG",
+    "Enzyme":"BstUI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/GGCCG",
+    "Enzyme":"EagI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CG\/GWCCG",
+    "Enzyme":"RsrII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CGRY\/CG",
+    "Enzyme":"BsiEI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/GTACG",
+    "Enzyme":"BsiWI BsiWI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CGTCTC(1\/5)",
+    "Enzyme":"Esp3I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CGTCTC",
+    "Enzyme":"BsmBI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CGWCG\/",
+    "Enzyme":"Hpy99I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CMG\/CKG",
+    "Enzyme":"MspA1I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CNNR(9\/13)",
+    "Enzyme":"MspJI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CR\/CCGGYG",
+    "Enzyme":"SgrAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TAG",
+    "Enzyme":"BfaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTCAG(9\/7)",
+    "Enzyme":"BspCNI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TCGAG",
+    "Enzyme":"XhoI PaeR7I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTCTTC(1\/4)",
+    "Enzyme":"EarI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTGAAG(16\/14)",
+    "Enzyme":"AcuI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTGCA\/G",
+    "Enzyme":"PstI PstI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTGGAG(16\/14)",
+    "Enzyme":"BpmI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TNAG",
+    "Enzyme":"DdeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TRYAG",
+    "Enzyme":"SfcI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TTAAG",
+    "Enzyme":"AflII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"CTTGAG(16\/14)",
+    "Enzyme":"BpuEI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/TYRAG",
+    "Enzyme":"SmlI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"C\/YCGRG",
+    "Enzyme":"BsoBI AvaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAAGA(8\/7)",
+    "Enzyme":"MboII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAAGAC(2\/6)",
+    "Enzyme":"BbsI BbsI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAANN\/NNTTC",
+    "Enzyme":"XmnI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAATGC(1\/-1)",
+    "Enzyme":"BsmI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAATGC(none\/-1)",
+    "Enzyme":"Nb.BsmI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/AATTC",
+    "Enzyme":"EcoRI-HF\u00ae EcoRI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACGC(5\/10)",
+    "Enzyme":"HgaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAC\/GTC",
+    "Enzyme":"ZraI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACGT\/C",
+    "Enzyme":"AatII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACN\/NNGTC",
+    "Enzyme":"PflFI Tth111I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACNN\/NNGTC",
+    "Enzyme":"PshAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACNNN\/NNGTC",
+    "Enzyme":"AhdI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GACNNNN\/NNGTC",
+    "Enzyme":"DrdI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAGCT\/C",
+    "Enzyme":"SacI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAG\/CTC",
+    "Enzyme":"Eco53kI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAGGAG(10\/8)",
+    "Enzyme":"BseRI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAGTC(5\/5)",
+    "Enzyme":"MlyI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAGTC(4\/5)",
+    "Enzyme":"PleI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAGTC(4\/none)",
+    "Enzyme":"Nt.BstNBI WarmStart\u00ae Nt.BstNBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/ANTC",
+    "Enzyme":"HinfI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GAT\/ATC",
+    "Enzyme":"EcoRV-HF\u00ae EcoRV",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GA\/TC",
+    "Enzyme":"DpnI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/GATC",
+    "Enzyme":"Sau3AI MboI DpnII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GATNN\/NNATC",
+    "Enzyme":"BsaBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/AWTC",
+    "Enzyme":"TfiI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCAATG(2\/0)",
+    "Enzyme":"BsrDI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCAATG(none\/0)",
+    "Enzyme":"Nb.BsrDI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCAGC(8\/12)",
+    "Enzyme":"BbvI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCAGTG(2\/0)",
+    "Enzyme":"BtsI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCAGTG(none\/0)",
+    "Enzyme":"Nb.BtsI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCANNNN\/NTGC",
+    "Enzyme":"BstAPI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCATC(5\/9)",
+    "Enzyme":"SfaNI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCATG\/C",
+    "Enzyme":"SphI-HF\u00ae SphI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCCC\/GGGC",
+    "Enzyme":"SrfI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCCGAG(21\/19)",
+    "Enzyme":"NmeAIII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCC\/GGC",
+    "Enzyme":"NaeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/CCGGC",
+    "Enzyme":"NgoMIV",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCCNNNN\/NGGC",
+    "Enzyme":"BglI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCGAT\/CGC",
+    "Enzyme":"AsiSI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCGATG(10\/14)",
+    "Enzyme":"BtgZI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/CGC",
+    "Enzyme":"HinP1I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCG\/C",
+    "Enzyme":"HhaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/CGCGC",
+    "Enzyme":"BssHII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GC\/GGCCGC",
+    "Enzyme":"NotI-HF\u00ae NotI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GC\/NGC",
+    "Enzyme":"Fnu4HI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCN\/NGC",
+    "Enzyme":"Cac8I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCNNNNN\/NNGC",
+    "Enzyme":"MwoI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCTAG\/C",
+    "Enzyme":"BmtI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/CTAGC",
+    "Enzyme":"NheI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCTCTTC(1\/4)",
+    "Enzyme":"SapI BspQI BspQI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GCTCTTC(1\/none)",
+    "Enzyme":"Nt.BspQI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GC\/TNAGC",
+    "Enzyme":"BlpI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/CWGC",
+    "Enzyme":"TseI ApeKI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GDGCH\/C",
+    "Enzyme":"Bsp1286I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGATC(4\/5)",
+    "Enzyme":"AlwI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GATCC",
+    "Enzyme":"BamHI BamHI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGATC(4\/none)",
+    "Enzyme":"Nt.AlwI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGATG(2\/0)",
+    "Enzyme":"BtsCI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGATG(9\/13)",
+    "Enzyme":"FokI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GG\/CC",
+    "Enzyme":"HaeIII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGCCGG\/CC",
+    "Enzyme":"FseI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGCCNNNN\/NGGCC",
+    "Enzyme":"SfiI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGC\/GCC",
+    "Enzyme":"SfoI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGCGC\/C",
+    "Enzyme":"PluTI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GG\/CGCC",
+    "Enzyme":"NarI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GCGCC",
+    "Enzyme":"KasI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GG\/CGCGCC",
+    "Enzyme":"AscI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGCGGA(11\/9)",
+    "Enzyme":"EciI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGGAC(10\/14)",
+    "Enzyme":"BsmFI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGGCC\/C",
+    "Enzyme":"ApaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GGCCC",
+    "Enzyme":"PspOMI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GNCC",
+    "Enzyme":"Sau96I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGN\/NCC",
+    "Enzyme":"NlaIV",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GTACC",
+    "Enzyme":"Acc65I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGTAC\/C",
+    "Enzyme":"KpnI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGTCTC(1\/5)",
+    "Enzyme":"BsaI-HF\u00aev2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GGTGA(8\/7)",
+    "Enzyme":"HphI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GTNACC",
+    "Enzyme":"BstEII-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GWCC",
+    "Enzyme":"AvaII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/GYRCC",
+    "Enzyme":"BanI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GKGCM\/C",
+    "Enzyme":"BaeGI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GR\/CGYC",
+    "Enzyme":"BsaHI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GRGCY\/C",
+    "Enzyme":"BanII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GT\/AC",
+    "Enzyme":"RsaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/TAC",
+    "Enzyme":"CviQI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTATAC",
+    "Enzyme":"BstZ17I-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTATCC(6\/5)",
+    "Enzyme":"BciVI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/TCGAC",
+    "Enzyme":"SalI SalI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTCTC(1\/5)",
+    "Enzyme":"BsmAI BcoDI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTCTC(1\/none)",
+    "Enzyme":"Nt.BsmAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"G\/TGCAC",
+    "Enzyme":"ApaLI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTGCAG(16\/14)",
+    "Enzyme":"BsgI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GT\/MKAC",
+    "Enzyme":"AccI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTN\/NAC",
+    "Enzyme":"Hpy166II",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"\/GTSAC",
+    "Enzyme":"Tsp45I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTT\/AAC",
+    "Enzyme":"HpaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTTT\/AAAC",
+    "Enzyme":"PmeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GTY\/RAC",
+    "Enzyme":"HincII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"GWGCW\/C",
+    "Enzyme":"BsiHKAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"NNCASTGNN\/",
+    "Enzyme":"TspRI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"R\/AATTY",
+    "Enzyme":"ApoI-HF",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"RCATG\/Y",
+    "Enzyme":"NspI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"R\/CCGGY",
+    "Enzyme":"BsrFI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"R\/GATCY",
+    "Enzyme":"BstYI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"RGCGC\/Y",
+    "Enzyme":"HaeII",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"RG\/CY",
+    "Enzyme":"CviKI-1",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"RG\/GNCCY",
+    "Enzyme":"EcoO109I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"RG\/GWCCY",
+    "Enzyme":"PpuMI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TAACTATAACGGTCCTAAGGTAGCGAA(-9\/-13)",
+    "Enzyme":"I-CeuI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TAC\/GTA",
+    "Enzyme":"SnaBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TAGGGATAACAGGGTAAT(-9\/-13)",
+    "Enzyme":"I-SceI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/CATGA",
+    "Enzyme":"BspHI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/CCGGA",
+    "Enzyme":"BspEI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TCCRAC(20\/18)",
+    "Enzyme":"MmeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/CGA",
+    "Enzyme":"TaqI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TCG\/CGA",
+    "Enzyme":"NruI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TCN\/GA",
+    "Enzyme":"Hpy188I",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TC\/NNGA",
+    "Enzyme":"Hpy188III",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/CTAGA",
+    "Enzyme":"XbaI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/GATCA",
+    "Enzyme":"BclI-HF BclI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TG\/CA",
+    "Enzyme":"HpyCH4V",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TGC\/GCA",
+    "Enzyme":"FspI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TGGCAAACAGCTATTATGGGTATTATGGGT(-13\/-17)",
+    "Enzyme":"PI-PspI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TGG\/CCA",
+    "Enzyme":"MscI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/GTACA",
+    "Enzyme":"BsrGI-HF\u00ae",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"T\/TAA",
+    "Enzyme":"MseI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TTAAT\/TAA",
+    "Enzyme":"PacI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TTA\/TAA",
+    "Enzyme":"PsiI-v2",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TT\/CGAA",
+    "Enzyme":"BstBI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"TTT\/AAA",
+    "Enzyme":"DraI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"VC\/TCGAGB",
+    "Enzyme":"PspXI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"W\/CCGGW",
+    "Enzyme":"BsaWI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"YAC\/GTR",
+    "Enzyme":"BsaAI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  },
+  {
+    "Recognition Sequence":"Y\/GGCCR",
+    "Enzyme":"EaeI",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null
+  }
+]
