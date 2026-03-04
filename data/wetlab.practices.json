@@ -1,0 +1,293 @@
+[
+  {
+    "id": "practice:micropipetting",
+    "name": "Precision Micropipetting",
+    "type": "lab_procedure",
+    "category": "practice",
+    "description": "How to set volume, attach tips, aspirate/dispense using the two-stop technique, and maintain proper angle for accuracy.",
+    "aliases": ["pipetting", "pipet", "micropipette", "pipette two-stop"],
+    "keywords": ["two-stop", "first stop", "second stop", "tip ejector", "vertical angle", "P20", "P200", "P1000"],
+    "hazards": ["aerosol contamination", "cross-contamination"],
+    "safety": {
+      "ppe": ["gloves"],
+      "notes": "Avoid touching sterile tips; maintain sterility and prevent contamination."
+    },
+    "procedure": {
+      "goal": "Accurate microliter liquid handling using correct range and plunger stops.",
+      "prep": [
+        "Confirm pipette range (P20/P200/P1000) and planned volume."
+      ],
+      "steps": [
+        { "order": 1, "text": "Set the volume with the adjustment dial to match your protocol.", "warning": "Do not dial past range limits; it can shift calibration and ruin accuracy." },
+        { "order": 2, "text": "Attach a new disposable sterile tip by pressing the shaft into the tip in the box, then lifting out.", "warning": "Do not touch the tip with hands or surfaces." },
+        { "order": 3, "text": "To aspirate: press plunger to the FIRST STOP, dip tip into liquid, then slowly release plunger to draw liquid." },
+        { "order": 4, "text": "To dispense: touch tip to dispensing surface, press to the SECOND STOP, then remove tip and release plunger." },
+        { "order": 5, "text": "Dispose of the used tip using the tip ejector." },
+        { "order": 6, "text": "Maintain a vertical pipette angle for best accuracy." }
+      ],
+      "common_mistakes": [
+        "Dialing outside pipette range",
+        "Touching tips to non-sterile surfaces",
+        "Aspirating too fast (bubbles / inaccurate volume)",
+        "Not keeping the pipette vertical during aspiration"
+      ],
+      "parameters": ["uL volume setting", "pipette model range"]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p1.png",
+        "page": 1,
+        "caption": "Micropipette parts, volume ranges, two-stop technique, and proper angle.",
+        "alt_text": "Handout page showing micropipette parts, P20/P200/P1000 volume windows, two-stop plunger technique, and vertical angle diagram."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:centrifuge",
+    "name": "Using a Centrifuge",
+    "type": "lab_equipment",
+    "category": "practice",
+    "description": "Principles of centrifugation, balancing rules, and safe operating procedure for microcentrifuge tubes.",
+    "aliases": ["microcentrifuge", "spin down", "centrifugation"],
+    "keywords": ["balance", "mock balance", "symmetry", "supernatant", "pellet", "RPM", "RCF"],
+    "hazards": ["device damage from imbalance", "injury risk from vibration", "leakage if caps not sealed"],
+    "safety": {
+      "ppe": ["gloves"],
+      "notes": "Do not leave until it reaches full speed and runs smoothly; only open when rotor fully stops."
+    },
+    "procedure": {
+      "goal": "Safely separate sample components by density while preventing imbalance.",
+      "steps": [
+        { "order": 1, "text": "Ensure tube caps are snapped shut tightly to prevent leakage during the spin." },
+        { "order": 2, "text": "Load tubes symmetrically (directly opposite each other) with equal mass/volume." },
+        { "order": 3, "text": "If spinning one tube, create a mock balance tube with equal volume of water and place it directly across." },
+        { "order": 4, "text": "Close internal rotor lid (if present) and main safety lid." },
+        { "order": 5, "text": "Set speed (RPM/RCF) and time per protocol, then press start." },
+        { "order": 6, "text": "Stay until full operating speed is reached and it runs smoothly without unusual noise." },
+        { "order": 7, "text": "Wait for complete stop before opening and unloading." }
+      ],
+      "common_mistakes": [
+        "Running unbalanced rotor",
+        "Unequal volume across opposing tubes",
+        "Opening lid before complete stop"
+      ],
+      "parameters": ["RPM/RCF", "time"]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p2.png",
+        "page": 2,
+        "caption": "Supernatant vs pellet and balancing patterns.",
+        "alt_text": "Handout page illustrating centrifugation principle and example rotor balancing configurations."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:vortexing",
+    "name": "Vortexing (Why and When)",
+    "type": "lab_equipment",
+    "category": "practice",
+    "description": "How and why to vortex for homogenization, with setup and SOP (grip, contact point, angle, duration, verification).",
+    "aliases": ["vortex mixer", "mixing", "resuspend pellet"],
+    "keywords": ["homogenization", "touch mode", "level 8", "level 10", "15 degrees", "20 degrees", "whirlpool"],
+    "hazards": ["aerosols if opened immediately", "leakage if cap not secure"],
+    "procedure": {
+      "goal": "Homogenize sample so concentration is consistent across microliters.",
+      "steps": [
+        { "order": 1, "text": "Set vortex mixer to Touch mode for manual control." },
+        { "order": 2, "text": "Set speed to Level 8–10 (high) unless your reagent is sensitive." },
+        { "order": 3, "text": "Hold the tube firmly near the top (cap) between thumb and forefinger." },
+        { "order": 4, "text": "Press bottom of tube into the center of the rubber vortex cup." },
+        { "order": 5, "text": "Hold the tube at a slight angle (~15°–20°) to create a stronger whirlpool effect." },
+        { "order": 6, "text": "Vortex 5–10 seconds for standard mixing; ~30 seconds (or until clear) for pellet resuspension." },
+        { "order": 7, "text": "Visually verify: liquid should reach at least halfway up the tube during vortexing." }
+      ],
+      "common_mistakes": [
+        "Holding perfectly vertical (weaker mixing)",
+        "Insufficient time for pellet resuspension",
+        "Not verifying vortex formation"
+      ]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p3.png",
+        "page": 3,
+        "caption": "Vortex SOP + example vortex mixer types.",
+        "alt_text": "Handout page describing vortex setup and steps, plus images of different vortex mixers."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:thermocycler",
+    "name": "Using a Thermocycler",
+    "type": "lab_equipment",
+    "category": "practice",
+    "description": "Thermocycler checklist, common PCR stages, loading tips (dummy tubes, heated lid), and notes like ramp rate and pause guidance.",
+    "aliases": ["PCR machine", "thermal cycler", "thermocycling"],
+    "keywords": ["heated lid 105C", "ramp rate 3.0C/sec", "dummy tubes", "edge effects", "denaturation", "annealing", "extension"],
+    "hazards": ["evaporation/failed runs if not sealed", "edge effects", "enzyme degradation if paused at 95C"],
+    "procedure": {
+      "goal": "Run consistent temperature cycling for PCR without evaporation or seating issues.",
+      "steps": [
+        { "order": 1, "text": "Use thin-walled PCR tubes/plates (microcentrifuge tubes are too thick)." },
+        { "order": 2, "text": "Ensure caps are clicked / film is sealed flat; evaporation is a major failure cause." },
+        { "order": 3, "text": "Verify reaction volume matches the software setting to ensure correct calculated sample temperatures." },
+        { "order": 4, "text": "If running only a few tubes, place empty dummy tubes in the four corners to balance lid pressure." },
+        { "order": 5, "text": "Set heated lid to 105°C to prevent condensation in caps." },
+        { "order": 6, "text": "Press tubes firmly into wells; air gaps insulate and disrupt ramp rate." },
+        { "order": 7, "text": "Use standard ramp rate (~3.0°C/sec) unless protocol says otherwise." },
+        { "order": 8, "text": "Avoid pausing at 95°C; if you must pause, do so during 4°C hold or 72°C extension." }
+      ],
+      "parameters": ["stage temperatures", "cycle counts", "ramp rate", "heated lid temperature"]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p4.png",
+        "page": 4,
+        "caption": "Thermocycler stages and loading notes.",
+        "alt_text": "Handout page describing thermocycler purpose, checklist, PCR stage table, and loading/operation notes."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:lab_safety",
+    "name": "Lab Safety Basics",
+    "type": "lab_safety",
+    "category": "practice",
+    "description": "PPE expectations, labeling and hood usage, aerosol prevention, waste hierarchy, and emergency procedures.",
+    "aliases": ["PPE", "waste disposal", "emergency procedures"],
+    "keywords": ["nitrile gloves", "labeling", "fume hood", "working height", "aerosols", "eyewash 15 minutes", "biohazard", "sharps"],
+    "hazards": ["chemical exposure", "biohazard exposure", "fire risk", "spill risk"],
+    "safety": {
+      "ppe": ["nitrile gloves", "lab coat"],
+      "notes": "Change gloves if punctured or after touching clean equipment; use hood for volatile/odorous chemicals."
+    },
+    "procedure": {
+      "goal": "Reduce exposure and contamination risks; handle spills/emergencies safely.",
+      "steps": [
+        { "order": 1, "text": "Wear nitrile gloves; change immediately if punctured or after touching phone/keyboard while handling samples." },
+        { "order": 2, "text": "Label all containers with content name, date, and initials; unlabeled containers are treated as hazardous waste." },
+        { "order": 3, "text": "Use fume hood for volatile/odorous chemicals; keep sash at working height for airflow." },
+        { "order": 4, "text": "After vortexing or thermocycling, wait ~3 seconds before opening tubes to let aerosols settle." },
+        { "order": 5, "text": "Dispose waste in correct containers (biohazard/sharps, glass box, general trash) per hierarchy." },
+        { "order": 6, "text": "Spills: minor clean with 70% ethanol or 10% bleach (depending on agent); major evacuate and notify lab manager." },
+        { "order": 7, "text": "Eye exposure: use eyewash/shower for at least 15 minutes." },
+        { "order": 8, "text": "Fire/smoke: unplug device if safe; otherwise use nearest Class BC extinguisher." }
+      ]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p5.png",
+        "page": 5,
+        "caption": "Safety rules, waste hierarchy, and emergencies + dilution equation on same page.",
+        "alt_text": "Handout page covering lab safety (PPE, labeling, fume hood), waste types, emergency procedures, plus dilution equation."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:sterility",
+    "name": "Sterility and Aseptic Technique",
+    "type": "lab_sterility",
+    "category": "practice",
+    "description": "Personal prep, bench/equipment sterilization, golden rules (tip management, tube lids, aerosol control), and disposal guidance.",
+    "aliases": ["aseptic technique", "contamination control"],
+    "keywords": ["70% ethanol", "kimwipe", "tip box closed", "do not reuse tips", "aerosol control", "AR glasses"],
+    "hazards": ["contamination", "aerosol generation"],
+    "procedure": {
+      "goal": "Prevent introduction of foreign substances and avoid cross-contamination.",
+      "steps": [
+        { "order": 1, "text": "Put on fresh nitrile gloves; if you touch face/phone/AR glasses, change gloves or re-sanitize." },
+        { "order": 2, "text": "Spray gloved hands with 70% ethanol and rub until dry." },
+        { "order": 3, "text": "Spray bench area with 70% ethanol and wipe with a Kimwipe before setting up racks." },
+        { "order": 4, "text": "Wipe pipette barrels with ethanol-dampened wipe; ensure racks are clean." },
+        { "order": 5, "text": "Never touch pipette tips; keep tip box closed when not actively withdrawing tips." },
+        { "order": 6, "text": "Minimize tube-open time: open, pipette, close immediately." },
+        { "order": 7, "text": "Avoid excessive blow-out force to reduce aerosols." },
+        { "order": 8, "text": "Eject used tips immediately into sharps/biohazard; never reuse tips across different reagents or after surface contact." }
+      ]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p6.png",
+        "page": 6,
+        "caption": "Sterility workflow + golden rules.",
+        "alt_text": "Handout page describing aseptic preparation, bench sterilization, sterile handling rules, and disposal notes."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  },
+
+  {
+    "id": "practice:documentation",
+    "name": "Lab Documentation (Bench Notes)",
+    "type": "lab_documentation",
+    "category": "practice",
+    "description": "What to record pre-experiment, during the protocol, and post-experiment (weights, timestamps, observations, lot numbers, deviations).",
+    "aliases": ["bench notes", "lab notebook", "record keeping"],
+    "keywords": ["dry weight", "wet weight", "0.1 mg", "timestamp", "lot number", "deviations", "master mix"],
+    "procedure": {
+      "goal": "Maintain precise real-time records for reproducibility and later analysis.",
+      "steps": [
+        { "order": 1, "text": "Before starting: label every tube clearly and record dry weight of each empty tube to nearest 0.1 mg (0.0001 g)." },
+        { "order": 2, "text": "During: record reagent lot numbers (if provided) and show calculations for master mix." },
+        { "order": 3, "text": "During: note deviations (spill, overshoot pipette volume, safety intervention) with exact step and time." },
+        { "order": 4, "text": "After: record final wet weight (tube + final solution) to compute actual/theoretical pipetting accuracy." },
+        { "order": 5, "text": "After: record start/end timestamps per sub-protocol and note visual anomalies (bubbles, cloudiness)." }
+      ]
+    },
+    "media": [
+      {
+        "kind": "image",
+        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p7.png",
+        "page": 7,
+        "caption": "Documentation checklist and required data points.",
+        "alt_text": "Handout page listing baseline recording, real-time bench note requirements, and post-experiment data entry checklist."
+      }
+    ],
+    "source": {
+      "name": "Wetlab Practices Supplemental Information",
+      "url": "file:/mnt/data/Supplemental%20information.pdf",
+      "retrieved": "2026-03-03"
+    }
+  }
+]

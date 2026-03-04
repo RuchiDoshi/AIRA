@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from datetime import date
 from typing import Any, Dict, List, Optional
 
@@ -8,20 +9,42 @@ from mcp.server.fastmcp import FastMCP
 
 # ---------- Load data ----------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # project root
-DATA_PATH = os.path.join(BASE_DIR, "data", "enzymes.restriction.json")
+DATA_FILES = [
+    "enzymes.restriction.json",
+    "wetlab.practices.json"
+]
 
-with open(DATA_PATH, "r", encoding="utf-8") as f:
-    REAGENTS: List[Dict[str, Any]] = json.load(f)
+REAGENTS = []
 
+for fname in DATA_FILES:
+    path = os.path.join(BASE_DIR, "data", fname)
+    print(f"Loading: {path}", file=sys.stderr)
+    with open(path, "r", encoding="utf-8") as f:
+        txt = f.read()
+        print(f"{fname} first 80 chars: {repr(txt[:80])}", file=sys.stderr)
+        data = json.loads(txt)  # instead of json.load(f)
+        REAGENTS.extend(data)
+
+# build name lookup
 # build name lookup
 NAME_TO_ITEM: Dict[str, Dict[str, Any]] = {}
 NAME_CHOICES: List[str] = []
 
+def _add_choice(label: str, item: Dict[str, Any]) -> None:
+    k = (label or "").strip().lower()
+    if not k:
+        return
+    if k not in NAME_TO_ITEM:  # keep first seen
+        NAME_TO_ITEM[k] = item
+    NAME_CHOICES.append(label)
+
 for item in REAGENTS:
-    nm = (item.get("name") or "").strip()
-    if nm:
-        NAME_TO_ITEM[nm.lower()] = item
-        NAME_CHOICES.append(nm)
+    if item.get("name"):
+        _add_choice(item["name"], item)
+    for a in item.get("aliases", []):
+        _add_choice(a, item)
+    for kw in item.get("keywords", []):
+        _add_choice(kw, item)
 
 def best_name_match(query: str, cutoff: int = 80) -> Optional[str]:
     q = (query or "").strip()
@@ -88,6 +111,37 @@ def find_enzymes_by_sequence(sequence: str, limit: int = 25) -> Dict[str, Any]:
             if len(matches) >= limit:
                 break
     return {"query_sequence": sequence, "matches": matches}
+
+
+@mcp.tool()
+def get_practice_steps(name: str) -> Dict[str, Any]:
+    """Return the procedure steps for a lab practice."""
+    matched = best_name_match(name)
+
+    if not matched:
+        return {"found": False, "query": name}
+
+    item = NAME_TO_ITEM[matched.lower()]
+
+    procedure = item.get("procedure")
+    if not procedure:
+        return {"found": True, "match": matched, "message": "No procedure available."}
+
+    return {
+        "found": True,
+        "match": matched,
+        "goal": procedure.get("goal"),
+        "steps": procedure.get("steps", [])
+    }
+
+@mcp.tool()
+def list_practices() -> List[str]:
+    """Return all available lab practices."""
+    return [
+        item["name"]
+        for item in REAGENTS
+        if item.get("category") == "practice"
+    ]
 
 if __name__ == "__main__":
     import sys
