@@ -112,26 +112,28 @@ def find_enzymes_by_sequence(sequence: str, limit: int = 25) -> Dict[str, Any]:
                 break
     return {"query_sequence": sequence, "matches": matches}
 
-
 @mcp.tool()
 def get_practice_steps(name: str) -> Dict[str, Any]:
-    """Return the procedure steps for a lab practice."""
+    """Return procedure steps + key safety + media for a lab practice."""
     matched = best_name_match(name)
-
     if not matched:
         return {"found": False, "query": name}
 
     item = NAME_TO_ITEM[matched.lower()]
+    procedure = item.get("procedure") or {}
 
-    procedure = item.get("procedure")
-    if not procedure:
-        return {"found": True, "match": matched, "message": "No procedure available."}
+    safety = item.get("safety") or {}
+    ppe = safety.get("ppe", [])
 
     return {
         "found": True,
         "match": matched,
         "goal": procedure.get("goal"),
-        "steps": procedure.get("steps", [])
+        "steps": procedure.get("steps", []),
+        "ppe": ppe,
+        "safety_notes": safety.get("notes"),
+        "hazards": item.get("hazards", []),
+        "media": item.get("media", [])
     }
 
 @mcp.tool()
