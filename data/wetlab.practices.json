@@ -36,10 +36,9 @@
     "media": [
       {
         "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p1.png",
-        "page": 1,
+        "url": "https://phages.hms.harvard.edu/assets/images/labprotocols/Pipette.png",
         "caption": "Micropipette parts, volume ranges, two-stop technique, and proper angle.",
-        "alt_text": "Handout page showing micropipette parts, P20/P200/P1000 volume windows, two-stop plunger technique, and vertical angle diagram."
+        "alt_text": "Diagram of a micropipette with labeled components and disposable tip."
       }
     ],
     "source": {
@@ -81,13 +80,18 @@
       "parameters": ["RPM/RCF", "time"]
     },
     "media": [
-      {
+    {
         "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p2.png",
-        "page": 2,
-        "caption": "Supernatant vs pellet and balancing patterns.",
-        "alt_text": "Handout page illustrating centrifugation principle and example rotor balancing configurations."
-      }
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/How_centrifuge_works.png",
+        "caption": "Supernatant vs pellet.",
+        "alt_text": "Diagram labeling supernatant vs pellet."
+    },
+    {
+        "kind": "image",
+        "url": "https://i.imgur.com/ciV6EcM.jpeg",
+        "caption": "Balancing patterns.",
+        "alt_text": "Photo displaying balancing patterns in a centrifuge."
+    }
     ],
     "source": {
       "name": "Wetlab Practices Supplemental Information",
@@ -95,7 +99,6 @@
       "retrieved": "2026-03-03"
     }
   },
-
   {
     "id": "practice:vortexing",
     "name": "Vortexing (Why and When)",
@@ -125,10 +128,10 @@
     "media": [
       {
         "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p3.png",
+        "url": "https://microbenotes.com/wp-content/uploads/2022/10/Types-and-Examples-of-Vortex-Mixer.jpg",
         "page": 3,
         "caption": "Vortex SOP + example vortex mixer types.",
-        "alt_text": "Handout page describing vortex setup and steps, plus images of different vortex mixers."
+        "alt_text": "Images of different vortex mixers."
       }
     ],
     "source": {
@@ -164,10 +167,9 @@
     "media": [
       {
         "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p4.png",
-        "page": 4,
-        "caption": "Thermocycler stages and loading notes.",
-        "alt_text": "Handout page describing thermocycler purpose, checklist, PCR stage table, and loading/operation notes."
+        "url": "https://www.researchgate.net/publication/367308257/figure/fig2/AS:11431281119707774@1676172094126/Temperature-curve-of-the-thermal-cycling-process.png",
+        "caption": "Temperature curve of the thermal cycling process.",
+        "alt_text": "Vizualization of the temperature curve of the thermal cycling process."
       }
     ],
     "source": {
@@ -203,15 +205,6 @@
         { "order": 8, "text": "Fire/smoke: unplug device if safe; otherwise use nearest Class BC extinguisher." }
       ]
     },
-    "media": [
-      {
-        "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p5.png",
-        "page": 5,
-        "caption": "Safety rules, waste hierarchy, and emergencies + dilution equation on same page.",
-        "alt_text": "Handout page covering lab safety (PPE, labeling, fume hood), waste types, emergency procedures, plus dilution equation."
-      }
-    ],
     "source": {
       "name": "Wetlab Practices Supplemental Information",
       "url": "file:/mnt/data/Supplemental%20information.pdf",
@@ -241,15 +234,6 @@
         { "order": 8, "text": "Eject used tips immediately into sharps/biohazard; never reuse tips across different reagents or after surface contact." }
       ]
     },
-    "media": [
-      {
-        "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p6.png",
-        "page": 6,
-        "caption": "Sterility workflow + golden rules.",
-        "alt_text": "Handout page describing aseptic preparation, bench sterilization, sterile handling rules, and disposal notes."
-      }
-    ],
     "source": {
       "name": "Wetlab Practices Supplemental Information",
       "url": "file:/mnt/data/Supplemental%20information.pdf",
@@ -275,15 +259,6 @@
         { "order": 5, "text": "After: record start/end timestamps per sub-protocol and note visual anomalies (bubbles, cloudiness)." }
       ]
     },
-    "media": [
-      {
-        "kind": "image",
-        "path": "file:/mnt/data/wetlab_media/wetlab_practices_p7.png",
-        "page": 7,
-        "caption": "Documentation checklist and required data points.",
-        "alt_text": "Handout page listing baseline recording, real-time bench note requirements, and post-experiment data entry checklist."
-      }
-    ],
     "source": {
       "name": "Wetlab Practices Supplemental Information",
       "url": "file:/mnt/data/Supplemental%20information.pdf",
