@@ -10,7 +10,7 @@ from mcp.server.fastmcp import FastMCP
 # ---------- Load data ----------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # project root
 DATA_FILES = [
-    "enzymes.restriction.json",
+    "enzymes.restriction.buffer.json",
     "wetlab.practices.json"
 ]
 
@@ -144,6 +144,124 @@ def list_practices() -> List[str]:
         for item in REAGENTS
         if item.get("category") == "practice"
     ]
+
+@mcp.tool()
+def get_buffer_activity(name: str) -> Dict[str, Any]:
+    """Return buffer % activity, recommended buffer, and assay conditions for an enzyme."""
+    matched = best_name_match(name)
+    if not matched:
+        return {"found": False, "query": name}
+    
+    item = NAME_TO_ITEM[matched.lower()]
+    ba = item.get("buffer_activity")
+    if not ba:
+        return {
+            "found": True,
+            "match": matched,
+            "has_buffer_data": False,
+            "message": "No NEB buffer data available for this enzyme (may not be commercially sold by NEB)."
+        }
+    return {
+        "found": True,
+        "match": matched,
+        "has_buffer_data": True,
+        "buffer_activity": ba
+    }
+
+@mcp.tool()
+def find_compatible_enzymes(
+    buffer: str,
+    min_activity: int = 75,
+    limit: int = 20
+) -> Dict[str, Any]:
+    """
+    Find enzymes with >= min_activity% in a given NEB buffer.
+    buffer: one of 'r1.1', 'r2.1', 'r3.1', 'rCutSmart'
+    min_activity: minimum % activity threshold (default 75)
+    """
+    buffer = buffer.strip()
+    results = []
+
+    for item in REAGENTS:
+        ba = item.get("buffer_activity")
+        if not ba or not ba.get("buffers"):
+            continue
+        activity = ba["buffers"].get(buffer)
+        if activity is None:
+            continue
+        # Handle "<10" style strings
+        if isinstance(activity, str):
+            continue  # treat <10 as below any threshold
+        if activity >= min_activity:
+            results.append({
+                "name": item["name"],
+                "activity": activity,
+                "recognition_sequence": item.get("recognition_sequence"),
+                "recommended_buffer": ba.get("recommended_buffer")
+            })
+
+    results.sort(key=lambda x: x["activity"], reverse=True)
+    return {
+        "buffer": buffer,
+        "min_activity": min_activity,
+        "count": len(results),
+        "results": results[:limit]
+    }
+
+@mcp.tool()
+def check_double_digest(enzyme1: str, enzyme2: str, min_activity: int = 75) -> Dict[str, Any]:
+    """
+    Check which NEB buffers support simultaneous digestion with two enzymes.
+    Returns compatible buffers where both enzymes meet the min_activity threshold.
+    """
+    BUFFERS = ["r1.1", "r2.1", "r3.1", "rCutSmart"]
+
+    def get_enzyme_buffers(name: str):
+        matched = best_name_match(name)
+        if not matched:
+            return None, None
+        item = NAME_TO_ITEM[matched.lower()]
+        ba = item.get("buffer_activity")
+        return matched, ba["buffers"] if ba else None
+
+    matched1, buffers1 = get_enzyme_buffers(enzyme1)
+    matched2, buffers2 = get_enzyme_buffers(enzyme2)
+
+    if not matched1 or not matched2:
+        return {
+            "found": False,
+            "message": f"Could not find: {enzyme1 if not matched1 else enzyme2}"
+        }
+    if not buffers1 or not buffers2:
+        no_data = enzyme1 if not buffers1 else enzyme2
+        return {
+            "found": True,
+            "compatible_buffers": [],
+            "message": f"No NEB buffer data for {no_data}."
+        }
+
+    compatible = []
+    for buf in BUFFERS:
+        a1 = buffers1.get(buf)
+        a2 = buffers2.get(buf)
+        if isinstance(a1, str) or isinstance(a2, str):
+            continue  # skip "<10" values
+        if a1 is not None and a2 is not None and a1 >= min_activity and a2 >= min_activity:
+            compatible.append({
+                "buffer": buf,
+                f"{matched1}_activity": a1,
+                f"{matched2}_activity": a2
+            })
+
+    return {
+        "enzyme1": matched1,
+        "enzyme2": matched2,
+        "min_activity_threshold": min_activity,
+        "compatible_buffers": compatible,
+        "recommended": compatible[0]["buffer"] if compatible else None,
+        "message": "No shared compatible buffer found." if not compatible else None
+    }
+
 
 if __name__ == "__main__":
     import sys
