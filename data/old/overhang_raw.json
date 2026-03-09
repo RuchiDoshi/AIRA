@@ -1,0 +1,284 @@
+[
+  {
+    "enzyme": "5' ...G",
+    "cleavage_site": "AATTC...3'",
+    "after_fill_ligation": "Fill-in and Ligate-->",
+    "recleavable_by": "5' ...GAATTAATTC...3'"
+  },
+  {
+    "enzyme": "3' ...CTTAA",
+    "cleavage_site": "G...5'",
+    "after_fill_ligation": "",
+    "recleavable_by": "3' ...CTTAATTAAG...5'"
+  },
+  {
+    "enzyme": "Acc65I",
+    "cleavage_site": "G/GTACC",
+    "after_fill_ligation": "GGTACGTACC",
+    "recleavable_by": "BsaAI, HpyCH4IV, RsaI, SnaBI6"
+  },
+  {
+    "enzyme": "AciI",
+    "cleavage_site": "C/CGC",
+    "after_fill_ligation": "CCGCGC",
+    "recleavable_by": "(AciI), BstUI, HhaI"
+  },
+  {
+    "enzyme": "AclI",
+    "cleavage_site": "AA/CGTT",
+    "after_fill_ligation": "AACGCGTT",
+    "recleavable_by": "AflIII, BstUI, MluI6"
+  },
+  {
+    "enzyme": "AflII",
+    "cleavage_site": "C/TTAAG",
+    "after_fill_ligation": "CTTAATTAAG",
+    "recleavable_by": "MseI2, PacI8, Tsp509I"
+  },
+  {
+    "enzyme": "AgeI *",
+    "cleavage_site": "A/CCGGT",
+    "after_fill_ligation": "ACCGGCCGGT",
+    "recleavable_by": "BsiEI, (BsrFI)2, EaeI, EagI6, HaeIII, HpaII"
+  },
+  {
+    "enzyme": "ApaLI",
+    "cleavage_site": "G/TGCAC",
+    "after_fill_ligation": "GTGCATGCAC",
+    "recleavable_by": "Cac8I, NlaIII, NspI, SphI6"
+  },
+  {
+    "enzyme": "AscI",
+    "cleavage_site": "GG/CGCGCC",
+    "after_fill_ligation": "GGCGCGCGCGCC",
+    "recleavable_by": "(BssHII)2, BstUI, Cac8I, HhaI"
+  },
+  {
+    "enzyme": "AvrII",
+    "cleavage_site": "C/CTAGG",
+    "after_fill_ligation": "CCTAGCTAGG",
+    "recleavable_by": "AluI, (BfaI)2"
+  },
+  {
+    "enzyme": "BamHI *",
+    "cleavage_site": "G/GATCC",
+    "after_fill_ligation": "GGATCGATCC",
+    "recleavable_by": "AlwI, ClaI6, (DpnII2), TaqI-v2"
+  },
+  {
+    "enzyme": "BclI *",
+    "cleavage_site": "T/GATCA",
+    "after_fill_ligation": "TGATCGATCA",
+    "recleavable_by": "ClaI6, (DpnII2), TaqI-v2"
+  },
+  {
+    "enzyme": "BfaI",
+    "cleavage_site": "C/TAG",
+    "after_fill_ligation": "CTATAG",
+    "recleavable_by": "SfcI"
+  },
+  {
+    "enzyme": "BglII",
+    "cleavage_site": "A/GATCT",
+    "after_fill_ligation": "AGATCGATCT",
+    "recleavable_by": "ClaI6, DpnII2, TaqI-v2"
+  },
+  {
+    "enzyme": "BsiWI",
+    "cleavage_site": "C/GTACG",
+    "after_fill_ligation": "CGTACGTACG",
+    "recleavable_by": "BsaAI, (BsiWI), HpyCH4IV, RsaI, SnaBI6"
+  },
+  {
+    "enzyme": "BspDI/ClaI",
+    "cleavage_site": "AT/CGAT",
+    "after_fill_ligation": "ATCGCGAT",
+    "recleavable_by": "BstUI, NruI6"
+  },
+  {
+    "enzyme": "BspEI",
+    "cleavage_site": "T/CCGGA",
+    "after_fill_ligation": "TCCGGCCGGA",
+    "recleavable_by": "BsiEI, EaeI, EagI6, HaeIII, (HpaII)2"
+  },
+  {
+    "enzyme": "BspHI",
+    "cleavage_site": "T/CATGA",
+    "after_fill_ligation": "TCATGCATGA",
+    "recleavable_by": "(NlaIII)2, NsiI6"
+  },
+  {
+    "enzyme": "BsrGI",
+    "cleavage_site": "T/GTACA",
+    "after_fill_ligation": "TGTACGTACA",
+    "recleavable_by": "BsaAI, (RsaI)2, SnaBI6"
+  },
+  {
+    "enzyme": "BssHII",
+    "cleavage_site": "G/CGCGC",
+    "after_fill_ligation": "GCGCGCGCGC",
+    "recleavable_by": "(BssHII), BstUI, Cac8I, HhaI"
+  },
+  {
+    "enzyme": "BstBI",
+    "cleavage_site": "TT/CGAA",
+    "after_fill_ligation": "TTCGCGAA",
+    "recleavable_by": "BstUI, NruI6"
+  },
+  {
+    "enzyme": "DpnII/MboI/Sau3AI",
+    "cleavage_site": "/GATC",
+    "after_fill_ligation": "GATCGATC",
+    "recleavable_by": "ClaI6, (DpnII), TaqI-v2"
+  },
+  {
+    "enzyme": "EagI *",
+    "cleavage_site": "C/GGCCG",
+    "after_fill_ligation": "CGGCCGGCCG",
+    "recleavable_by": "BsiEI, BsrFI, Cac8I, EaeI2, (EagI2), FseI8, HaeIII, HpaII, NaeI"
+  },
+  {
+    "enzyme": "EcoRI *",
+    "cleavage_site": "G/AATTC",
+    "after_fill_ligation": "GAATTAATTC",
+    "recleavable_by": "AseI6, MseI, Tsp509I, XmnI6"
+  },
+  {
+    "enzyme": "FatI",
+    "cleavage_site": "/CATG",
+    "after_fill_ligation": "CATGCATG",
+    "recleavable_by": "BrfBI6, HpyCH4IV, (FatI2)"
+  },
+  {
+    "enzyme": "HinP1I",
+    "cleavage_site": "G/CGC",
+    "after_fill_ligation": "GCGCGC",
+    "recleavable_by": "BssHII6, BstUI, Cac8I, (HhaI)"
+  },
+  {
+    "enzyme": "HindIII *",
+    "cleavage_site": "A/AGCTT",
+    "after_fill_ligation": "AAGCTAGCTT",
+    "recleavable_by": "AluI, BfaI, Cac8I, NheI6"
+  },
+  {
+    "enzyme": "HpaII/MspI",
+    "cleavage_site": "C/CGG",
+    "after_fill_ligation": "CCGCGG",
+    "recleavable_by": "AciI, BsaJI, BstUI, BtgI, MspA1I, SacII6"
+  },
+  {
+    "enzyme": "HpyCH4IV",
+    "cleavage_site": "A/CGT",
+    "after_fill_ligation": "ACGCGT",
+    "recleavable_by": "AflIII, BstUI, MluI6"
+  },
+  {
+    "enzyme": "KasI",
+    "cleavage_site": "G/GCGCC",
+    "after_fill_ligation": "GGCGCGCGCC",
+    "recleavable_by": "(BssHII6)2, (BstUI)2, Cac8I, (HhaI)2"
+  },
+  {
+    "enzyme": "MfeI *",
+    "cleavage_site": "C/AATTG",
+    "after_fill_ligation": "CAATTAATTG",
+    "recleavable_by": "AseI6, Tsp509I2"
+  },
+  {
+    "enzyme": "MluI",
+    "cleavage_site": "A/CGCGT",
+    "after_fill_ligation": "ACGCGCGCGT",
+    "recleavable_by": "BssHII6, BstUI, Cac8I, (HhaI)2"
+  },
+  {
+    "enzyme": "NarI",
+    "cleavage_site": "GG/CGCC",
+    "after_fill_ligation": "GGCGCGCC",
+    "recleavable_by": "AscI8, BssHII, BstUI, Cac8I, HhaI"
+  },
+  {
+    "enzyme": "NcoI *",
+    "cleavage_site": "C/CATGG",
+    "after_fill_ligation": "CCATGCATGG",
+    "recleavable_by": "NlaIII, NsiI6"
+  },
+  {
+    "enzyme": "NgoMIV",
+    "cleavage_site": "G/CCGGC",
+    "after_fill_ligation": "GCCGGCCGGC",
+    "recleavable_by": "BsiEI, BsrFI, Cac8I, EaeI, EagI6, HaeIII, HpaII, (NgoMIV2)"
+  },
+  {
+    "enzyme": "NheI *",
+    "cleavage_site": "G/CTAGC",
+    "after_fill_ligation": "GCTAGCTAGC",
+    "recleavable_by": "AluI, BfaI, Cac8I, (NheI)"
+  },
+  {
+    "enzyme": "NotI *",
+    "cleavage_site": "GC/GGCCGC",
+    "after_fill_ligation": "GCGGCCGGCCGC",
+    "recleavable_by": "AciI, BsiEI, BsrFI, Cac8I, EaeI, (EagI6)2, Fnu4HI, FseI8, HaeIII, HpaII, NaeI6"
+  },
+  {
+    "enzyme": "PaeR7I/XhoI",
+    "cleavage_site": "C/TCGAG",
+    "after_fill_ligation": "CTCGATCGAG",
+    "recleavable_by": "BsiEI, DpnII, PvuI6, (TaqI-v2)2"
+  },
+  {
+    "enzyme": "PciI",
+    "cleavage_site": "A/CATGT",
+    "after_fill_ligation": "ACATGCATGT",
+    "recleavable_by": "HpyCH4V, (NlaIII2), NsiI6"
+  },
+  {
+    "enzyme": "PspOMI",
+    "cleavage_site": "G/GGCCC",
+    "after_fill_ligation": "GGGCCGGCCC",
+    "recleavable_by": "BsrFI, Cac8I, FseI8, HaeIII, HpaII, NaeI, Sau96I"
+  },
+  {
+    "enzyme": "PspXI",
+    "cleavage_site": "VC/TCGAGB",
+    "after_fill_ligation": "VCTCGATCGAGB",
+    "recleavable_by": "PvuI6, (TaqI-v2)2"
+  },
+  {
+    "enzyme": "SalI *",
+    "cleavage_site": "G/TCGAC",
+    "after_fill_ligation": "GTCGATCGAC",
+    "recleavable_by": "BsiEI, DpnII, PvuI6, TaqI-v2"
+  },
+  {
+    "enzyme": "SpeI *",
+    "cleavage_site": "A/CTAGT",
+    "after_fill_ligation": "ACTAGCTAGT",
+    "recleavable_by": "AluI, (BfaI)2"
+  },
+  {
+    "enzyme": "TaqI-v2",
+    "cleavage_site": "T/CGA",
+    "after_fill_ligation": "TCGCGA",
+    "recleavable_by": "BstUI, NruI6"
+  },
+  {
+    "enzyme": "Tsp509I",
+    "cleavage_site": "/AATT",
+    "after_fill_ligation": "AATTAATT",
+    "recleavable_by": "AseI6, MseI, (Tsp509I2)"
+  },
+  {
+    "enzyme": "XbaI",
+    "cleavage_site": "T/CTAGA",
+    "after_fill_ligation": "TCTAGCTAGA",
+    "recleavable_by": "AluI, BfaI"
+  },
+  {
+    "enzyme": "XmaI",
+    "cleavage_site": "C/CCGGG",
+    "after_fill_ligation": "CCCGGCCGGG",
+    "recleavable_by": "BsiEI, EaeI, EagI6, HaeIII, HpaII, NciI, ScrFI"
+  }
+]

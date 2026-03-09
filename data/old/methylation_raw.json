@@ -1,0 +1,1887 @@
+[
+  {
+    "enzyme": "●",
+    "sequence": "Not Sensitive",
+    "dam": "◆",
+    "dcm": "Impaired"
+  },
+  {
+    "enzyme": "◼",
+    "sequence": "Blocked",
+    "dam": "◇ ol",
+    "dcm": "Impaired by Overlapping"
+  },
+  {
+    "enzyme": "◻ ol",
+    "sequence": "Blocked by Overlapping",
+    "dam": "◇ scol",
+    "dcm": "Impaired by Some Combinations of Overlapping"
+  },
+  {
+    "enzyme": "◻ scol",
+    "sequence": "Blocked by Some Combinations of Overlapping",
+    "dam": ""
+  },
+  {
+    "enzyme": "AatII",
+    "sequence": "GACGT/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "Acc65I",
+    "sequence": "G/GTACC",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "AccI",
+    "sequence": "GT/MKAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "AciI",
+    "sequence": "CCGC(-3/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AclI",
+    "sequence": "AA/CGTT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AcuI",
+    "sequence": "CTGAAG(16/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AfeI",
+    "sequence": "AGC/GCT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AflII",
+    "sequence": "C/TTAAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AflIII",
+    "sequence": "A/CRYGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AgeI-HF®",
+    "sequence": "A/CCGGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AhdI",
+    "sequence": "GACNNN/NNGTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ scol"
+  },
+  {
+    "enzyme": "AleI-v2",
+    "sequence": "CACNN/NNGTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "AluI",
+    "sequence": "AG/CT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AlwI",
+    "sequence": "GGATC(4/5)",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AlwNI",
+    "sequence": "CAGNNN/CTG",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "ApaI",
+    "sequence": "GGGCC/C",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "ApaLI",
+    "sequence": "G/TGCAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "ApeKI",
+    "sequence": "G/CWGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "ApoI-HF",
+    "sequence": "R/AATTY",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AscI",
+    "sequence": "GG/CGCGCC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AseI",
+    "sequence": "AT/TAAT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "AsiSI",
+    "sequence": "GCGAT/CGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AvaI",
+    "sequence": "C/YCGRG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "AvaII",
+    "sequence": "G/GWCC",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "AvrII",
+    "sequence": "C/CTAGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BaeGI",
+    "sequence": "GKGCM/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BaeI",
+    "sequence": "(10/15)ACNNNNGTAYC(12/7)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BamHI §",
+    "sequence": "G/GATCC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BamHI-HF®",
+    "sequence": "G/GATCC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BanI",
+    "sequence": "G/GYRCC",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BanII",
+    "sequence": "GRGCY/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BbsI §",
+    "sequence": "GAAGAC(2/6)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BbsI-HF®",
+    "sequence": "GAAGAC(2/6)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BbvCI",
+    "sequence": "CCTCAGC(-5/-2)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "BbvI",
+    "sequence": "GCAGC(8/12)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BccI",
+    "sequence": "CCATC(4/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BceAI",
+    "sequence": "ACGGC(12/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BcgI",
+    "sequence": "(10/12)CGANNNNNNTGC(12/10)",
+    "dam": "◇ ol",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BciVI",
+    "sequence": "GTATCC(6/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BclI §",
+    "sequence": "T/GATCA",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BclI-HF",
+    "sequence": "T/GATCA",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BcoDI",
+    "sequence": "GTCTC(1/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ scol"
+  },
+  {
+    "enzyme": "BfaI",
+    "sequence": "C/TAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BfuAI",
+    "sequence": "ACCTGC(4/8)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "BglI",
+    "sequence": "GCCNNNN/NGGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BglII",
+    "sequence": "A/GATCT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BlpI",
+    "sequence": "GC/TNAGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BmgBI",
+    "sequence": "CACGTC(-3/-3)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BmrI",
+    "sequence": "ACTGGG(5/4)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BmtI-HF®",
+    "sequence": "GCTAG/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BpmI",
+    "sequence": "CTGGAG(16/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BpuEI",
+    "sequence": "CTTGAG(16/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Bpu10I",
+    "sequence": "CCTNAGC(-5/-2)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsaAI",
+    "sequence": "YAC/GTR",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsaBI",
+    "sequence": "GATNN/NNATC",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BsaHI",
+    "sequence": "GR/CGYC",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsaI-HF®v2",
+    "sequence": "GGTCTC(1/5)",
+    "dam": "●",
+    "dcm": "◇ scol",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BsaJI",
+    "sequence": "C/CNNGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsaWI",
+    "sequence": "W/CCGGW",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsaXI",
+    "sequence": "(9/12)ACNNNNNCTCC(10/7)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BseRI",
+    "sequence": "GAGGAG(10/8)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BseYI",
+    "sequence": "CCCAGC(-5/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "BsgI",
+    "sequence": "GTGCAG(16/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsiEI",
+    "sequence": "CGRY/CG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsiHKAI",
+    "sequence": "GWGCW/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsiWI §",
+    "sequence": "C/GTACG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsiWI-HF®",
+    "sequence": "C/GTACG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BslI",
+    "sequence": "CCNNNNN/NNGG",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BsmAI",
+    "sequence": "GTCTC(1/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BsmBI-v2",
+    "sequence": "CGTCTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsmFI",
+    "sequence": "GGGAC(10/14)",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "BsmI",
+    "sequence": "GAATGC(1/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsoBI",
+    "sequence": "C/YCGRG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BspCNI",
+    "sequence": "CTCAG(9/7)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BspDI",
+    "sequence": "AT/CGAT",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BspEI",
+    "sequence": "T/CCGGA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "◆"
+  },
+  {
+    "enzyme": "BspHI",
+    "sequence": "T/CATGA",
+    "dam": "◇ ol",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Bsp1286I",
+    "sequence": "GDGCH/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BspMI",
+    "sequence": "ACCTGC(4/8)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BspQI",
+    "sequence": "GCTCTTC(1/4)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BspQI-HF® §",
+    "sequence": "GCTCTTC(1/4)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsrBI",
+    "sequence": "CCGCTC(-3/-3)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BsrDI",
+    "sequence": "GCAATG(2/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsrFI-v2",
+    "sequence": "R/CCGGY",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BsrGI-HF®",
+    "sequence": "T/GTACA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BsrI",
+    "sequence": "ACTGG(1/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BssHII",
+    "sequence": "G/CGCGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BssSI-v2",
+    "sequence": "CACGAG(-5/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BstAPI",
+    "sequence": "GCANNNN/NTGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "BstBI",
+    "sequence": "TT/CGAA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BstEII-HF®",
+    "sequence": "G/GTNACC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BstNI",
+    "sequence": "CC/WGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BstUI",
+    "sequence": "CG/CG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "BstXI",
+    "sequence": "CCANNNNN/NTGG",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BstYI",
+    "sequence": "R/GATCY",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BstZ17I-HF®",
+    "sequence": "GTATAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "Bsu36I",
+    "sequence": "CC/TNAGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BtgI",
+    "sequence": "C/CRYGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BtgZI",
+    "sequence": "GCGATG(10/14)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◆"
+  },
+  {
+    "enzyme": "BtsCI",
+    "sequence": "GGATG(2/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BtsIMutI",
+    "sequence": "CAGTG(2/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "BtsI-v2",
+    "sequence": "GCAGTG(2/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Cac8I",
+    "sequence": "GCN/NGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "ClaI",
+    "sequence": "AT/CGAT",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "CspCI",
+    "sequence": "(11/13)CAANNNNNGTGG(12/10)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "CviKI-1",
+    "sequence": "RG/CY",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "CviQI",
+    "sequence": "G/TAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "DdeI",
+    "sequence": "C/TNAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "DpnI",
+    "sequence": "GA/TC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "DpnII",
+    "sequence": "/GATC",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "DraI",
+    "sequence": "TTT/AAA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "DraIII-HF®",
+    "sequence": "CACNNN/GTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "DrdI",
+    "sequence": "GACNNNN/NNGTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "EaeI",
+    "sequence": "Y/GGCCR",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "EagI-HF®",
+    "sequence": "C/GGCCG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "EarI",
+    "sequence": "CTCTTC(1/4)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "EciI",
+    "sequence": "GGCGGA(11/9)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "Eco53kI",
+    "sequence": "GAG/CTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "EcoNI",
+    "sequence": "CCTNN/NNNAGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "EcoO109I",
+    "sequence": "RG/GNCCY",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "EcoP15I",
+    "sequence": "CAGCAG(25/27)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "EcoRI §",
+    "sequence": "G/AATTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "EcoRI-HF®",
+    "sequence": "G/AATTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "EcoRV §",
+    "sequence": "GAT/ATC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ scol"
+  },
+  {
+    "enzyme": "EcoRV-HF®",
+    "sequence": "GAT/ATC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ scol"
+  },
+  {
+    "enzyme": "Esp3I",
+    "sequence": "CGTCTC(1/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "FatI",
+    "sequence": "/CATG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "FauI",
+    "sequence": "CCCGC(4/6)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "Fnu4HI",
+    "sequence": "GC/NGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "FokI",
+    "sequence": "GGATG(9/13)",
+    "dam": "●",
+    "dcm": "◇ ol",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "FseI",
+    "sequence": "GGCCGG/CC",
+    "dam": "●",
+    "dcm": "◇ scol",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "FspI",
+    "sequence": "TGC/GCA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HaeII",
+    "sequence": "RGCGC/Y",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HaeIII",
+    "sequence": "GG/CC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "HgaI",
+    "sequence": "GACGC(5/10)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HhaI",
+    "sequence": "GCG/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HincII",
+    "sequence": "GTY/RAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "HindIII §",
+    "sequence": "A/AGCTT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "HindIII-HF®",
+    "sequence": "A/AGCTT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "HinfI",
+    "sequence": "G/ANTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "HinP1I",
+    "sequence": "G/CGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HpaI",
+    "sequence": "GTT/AAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "HpaII",
+    "sequence": "C/CGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HphI",
+    "sequence": "GGTGA(8/7)",
+    "dam": "■",
+    "dcm": "■",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "HpyAV",
+    "sequence": "CCTTC(6/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "HpyCH4III",
+    "sequence": "ACN/GT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "HpyCH4IV",
+    "sequence": "A/CGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "HpyCH4V",
+    "sequence": "TG/CA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Hpy99I",
+    "sequence": "CGWCG/",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "Hpy188I",
+    "sequence": "TCN/GA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Hpy166II",
+    "sequence": "GTN/NAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "Hpy188III",
+    "sequence": "TC/NNGA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "I-CeuI",
+    "sequence": "TAACTATAACGGTCCTAAGGTAGCGAA(-9/-13)",
+    "dam": "",
+    "dcm": "",
+    "cpg": ""
+  },
+  {
+    "enzyme": "I-SceI",
+    "sequence": "TAGGGATAACAGGGTAAT(-9/-13)",
+    "dam": "",
+    "dcm": "",
+    "cpg": ""
+  },
+  {
+    "enzyme": "KasI",
+    "sequence": "G/GCGCC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "KpnI-HF®",
+    "sequence": "GGTAC/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MboI",
+    "sequence": "/GATC",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MboII",
+    "sequence": "GAAGA(8/7)",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MfeI-HF®",
+    "sequence": "C/AATTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MluCI",
+    "sequence": "/AATT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MluI-HF®",
+    "sequence": "A/CGCGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "MlyI",
+    "sequence": "GAGTC(5/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MmeI",
+    "sequence": "TCCRAC(20/18)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "MnlI",
+    "sequence": "CCTC(7/6)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MscI",
+    "sequence": "TGG/CCA",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MseI",
+    "sequence": "T/TAA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MslI",
+    "sequence": "CAYNN/NNRTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MspA1I",
+    "sequence": "CMG/CKG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "MspI",
+    "sequence": "C/CGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MspJI",
+    "sequence": "CNNR(9/13)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "MwoI",
+    "sequence": "GCNNNNN/NNGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "NaeI",
+    "sequence": "GCC/GGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "NarI",
+    "sequence": "GG/CGCC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "Nb.BbvCI",
+    "sequence": "CCTCAGC(none/-2)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nb.BsmI",
+    "sequence": "GAATGC(none/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nb.BsrDI",
+    "sequence": "GCAATG(none/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nb.BssSI",
+    "sequence": "CACGAG(none/-1)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nb.BtsI",
+    "sequence": "GCAGTG(none/0)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NciI",
+    "sequence": "CC/SGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "NcoI §",
+    "sequence": "C/CATGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NcoI-HF®",
+    "sequence": "C/CATGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NdeI",
+    "sequence": "CA/TATG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NgoMIV",
+    "sequence": "G/CCGGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "NheI-HF®",
+    "sequence": "G/CTAGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "NlaIII",
+    "sequence": "CATG/",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NlaIV",
+    "sequence": "GGN/NCC",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "NmeAIII",
+    "sequence": "GCCGAG(21/19)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NotI §",
+    "sequence": "GC/GGCCGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "NotI-HF®",
+    "sequence": "GC/GGCCGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "NruI-HF®",
+    "sequence": "TCG/CGA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "NsiI §",
+    "sequence": "ATGCA/T",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NsiI-HF®",
+    "sequence": "ATGCA/T",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "NspI",
+    "sequence": "RCATG/Y",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nt.AlwI",
+    "sequence": "GGATC(4/none)",
+    "dam": "■",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nt.BbvCI",
+    "sequence": "CCTCAGC(-5/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "Nt.BsmAI",
+    "sequence": "GTCTC(1/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "Nt.BspQI",
+    "sequence": "GCTCTTC(1/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nt.BstNBI",
+    "sequence": "GAGTC(4/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Nt.CviPII",
+    "sequence": "CCD(-3/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "PacI",
+    "sequence": "TTAAT/TAA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PaeR7I",
+    "sequence": "C/TCGAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "PaqCI",
+    "sequence": "CACCTGC(4/8)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "PciI",
+    "sequence": "A/CATGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PflFI",
+    "sequence": "GACN/NNGTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PflMI",
+    "sequence": "CCANNNN/NTGG",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PI-PspI",
+    "sequence": "TGGCAAACAGCTATTATGGGTATTATGGGT(-13/-17)",
+    "dam": "",
+    "dcm": "",
+    "cpg": ""
+  },
+  {
+    "enzyme": "PI-SceI",
+    "sequence": "ATCTATGTCGGGTGCGGAGAAAGAGGTAAT(-15/-19)",
+    "dam": "",
+    "dcm": "",
+    "cpg": ""
+  },
+  {
+    "enzyme": "PleI",
+    "sequence": "GAGTC(4/5)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "PluTI",
+    "sequence": "GGCGC/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "PmeI",
+    "sequence": "GTTT/AAAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "PmlI",
+    "sequence": "CAC/GTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "PpuMI",
+    "sequence": "RG/GWCCY",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PshAI",
+    "sequence": "GACNN/NNGTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "PsiI-v2",
+    "sequence": "TTA/TAA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PspGI",
+    "sequence": "/CCWGG",
+    "dam": "●",
+    "dcm": "■",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PspOMI",
+    "sequence": "G/GGCCC",
+    "dam": "●",
+    "dcm": "◇ scol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "PspXI",
+    "sequence": "VC/TCGAGB",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◆"
+  },
+  {
+    "enzyme": "PstI §",
+    "sequence": "CTGCA/G",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PstI-HF®",
+    "sequence": "CTGCA/G",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PvuI-HF®",
+    "sequence": "CGAT/CG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "PvuII §",
+    "sequence": "CAG/CTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "PvuII-HF®",
+    "sequence": "CAG/CTG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "RsaI",
+    "sequence": "GT/AC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "RsrII",
+    "sequence": "CG/GWCCG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SacI-HF®",
+    "sequence": "GAGCT/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "SacII",
+    "sequence": "CCGC/GG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SalI §",
+    "sequence": "G/TCGAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SalI-HF®",
+    "sequence": "G/TCGAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SapI",
+    "sequence": "GCTCTTC(1/4)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Sau3AI",
+    "sequence": "/GATC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "Sau96I",
+    "sequence": "G/GNCC",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "SbfI-HF®",
+    "sequence": "CCTGCA/GG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "ScaI-HF®",
+    "sequence": "AGT/ACT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "ScrFI",
+    "sequence": "CC/NGG",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◻ ol"
+  },
+  {
+    "enzyme": "SexAI",
+    "sequence": "A/CCWGGT",
+    "dam": "●",
+    "dcm": "■",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SfaNI",
+    "sequence": "GCATC(5/9)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◇ scol"
+  },
+  {
+    "enzyme": "SfcI",
+    "sequence": "C/TRYAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SfiI",
+    "sequence": "GGCCNNNN/NGGCC",
+    "dam": "●",
+    "dcm": "◇ ol",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "SfoI",
+    "sequence": "GGC/GCC",
+    "dam": "●",
+    "dcm": "◻ scol",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SgrAI",
+    "sequence": "CR/CCGGYG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SmaI",
+    "sequence": "CCC/GGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SmlI",
+    "sequence": "C/TYRAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SnaBI",
+    "sequence": "TAC/GTA",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SpeI-HF®",
+    "sequence": "A/CTAGT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SphI §",
+    "sequence": "GCATG/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SphI-HF®",
+    "sequence": "GCATG/C",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SrfI",
+    "sequence": "GCCC/GGGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "SspI-HF®",
+    "sequence": "AAT/ATT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "StuI",
+    "sequence": "AGG/CCT",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "StyD4I",
+    "sequence": "/CCNGG",
+    "dam": "●",
+    "dcm": "◻ ol",
+    "cpg": "◇ ol"
+  },
+  {
+    "enzyme": "StyI-HF®",
+    "sequence": "C/CWWGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "SwaI",
+    "sequence": "ATTT/AAAT",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "TaqI-v2",
+    "sequence": "T/CGA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "TfiI",
+    "sequence": "G/AWTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "TseI",
+    "sequence": "G/CWGC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◻ scol"
+  },
+  {
+    "enzyme": "Tsp45I",
+    "sequence": "/GTSAC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "TspMI",
+    "sequence": "C/CCGGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  },
+  {
+    "enzyme": "TspRI",
+    "sequence": "NNCASTGNN/",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "Tth111I",
+    "sequence": "GACN/NNGTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "WarmStart® Nt.BstNBI",
+    "sequence": "GAGTC(4/none)",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "XbaI",
+    "sequence": "T/CTAGA",
+    "dam": "◻ ol",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "XcmI",
+    "sequence": "CCANNNNN/NNNNTGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "XhoI",
+    "sequence": "C/TCGAG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◆"
+  },
+  {
+    "enzyme": "XmaI",
+    "sequence": "C/CCGGG",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "◆"
+  },
+  {
+    "enzyme": "XmnI",
+    "sequence": "GAANN/NNTTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "●"
+  },
+  {
+    "enzyme": "ZraI",
+    "sequence": "GAC/GTC",
+    "dam": "●",
+    "dcm": "●",
+    "cpg": "■"
+  }
+]

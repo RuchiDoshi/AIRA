@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/lab-mcp/reagent.schema.json",
-  "title": "Lab MCP Reagent Schema",
+  "$id": "https://example.org/lab-mcp/reagent-or-practice.schema.json",
+  "title": "Lab MCP Resource Schema (Reagents + Wetlab Practices)",
+  "description": "Schema v3 — adds enzyme_type, methylation_sensitivity (structured), overhang.length, iis_data, after_fill_ligation, recleavable_by",
   "type": "object",
   "required": ["id", "name", "type", "category", "description", "source"],
   "additionalProperties": false,
@@ -9,13 +10,10 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier (e.g., enzyme:restriction:ecori)"
+      "description": "Unique identifier (e.g., enzyme:restriction:ecori OR practice:micropipetting)"
     },
 
-    "name": {
-      "type": "string",
-      "description": "Human-readable reagent name"
-    },
+    "name": { "type": "string" },
 
     "type": {
       "type": "string",
@@ -27,17 +25,26 @@
         "buffer",
         "chemical",
         "kit",
-        "other"
+        "other",
+        "lab_equipment",
+        "lab_procedure",
+        "lab_safety",
+        "lab_sterility",
+        "lab_documentation",
+        "lab_calculation"
       ]
     },
 
     "category": {
       "type": "string",
-      "enum": ["enzyme", "chemical", "buffer", "kit", "other"]
+      "enum": ["enzyme", "chemical", "buffer", "kit", "other", "practice"]
     },
 
-    "description": {
-      "type": "string"
+    "description": { "type": "string" },
+
+    "organism": {
+      "type": "string",
+      "description": "Source organism the enzyme was isolated from"
     },
 
     "aliases": {
@@ -46,9 +53,13 @@
       "default": []
     },
 
-    "storage": {
-      "type": "string"
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
     },
+
+    "storage": { "type": "string" },
 
     "hazards": {
       "type": "array",
@@ -60,11 +71,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "ppe": {
-          "type": "array",
-          "items": { "type": "string" },
-          "default": []
-        },
+        "ppe": { "type": "array", "items": { "type": "string" }, "default": [] },
         "notes": { "type": "string" }
       }
     },
@@ -75,9 +82,7 @@
       "default": []
     },
 
-    "notes": {
-      "type": "string"
-    },
+    "notes": { "type": "string" },
 
     "vendor": {
       "type": "object",
@@ -95,74 +100,228 @@
       "additionalProperties": false,
       "properties": {
         "name": { "type": "string" },
-        "url": { "type": "string", "format": "uri" },
-        "retrieved": {
-          "type": "string",
-          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-        }
+        "url": { "type": "string", "format": "uri-reference" },
+        "retrieved": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
       }
     },
 
     "recognition_sequence": {
       "type": "string",
-      "description": "DNA sequence recognized by the enzyme"
+      "description": "DNA recognition sequence in IUPAC notation (e.g., 'GAATTC', 'CACCTGC(4/8)')"
     },
 
     "cut_site": {
       "type": "string",
-      "description": "Text representation of cut position"
+      "description": "Cut position with ^ marker on top strand (e.g., 'G^AATTC')"
+    },
+
+    "enzyme_type": {
+      "type": "string",
+      "enum": ["Type I", "Type II", "Type IIA", "Type IIB", "Type IIC", "Type IIE",
+               "Type IIF", "Type IIG", "Type IIH", "Type IIM", "Type IIP", "Type IIS",
+               "Type IIT", "Type III", "Type IV"],
+      "description": "Enzyme classification. Type IIS cuts outside recognition sequence (Golden Gate). Source: REBASE proto.txt + sequence notation inference."
     },
 
     "overhang": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["type"],
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": ["5_prime", "3_prime", "blunt"]
-        },
-        "sequence": {
-          "type": ["string", "null"]
+      "description": "Overhang generated after restriction digest. null = unknown.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["5_prime", "3_prime", "blunt"],
+              "description": "5_prime = cut leaves 5' extension; 3_prime = leaves 3' extension; blunt = no overhang"
+            },
+            "sequence": {
+              "type": ["string", "null"],
+              "description": "Overhang nucleotide sequence (null for blunt ends)"
+            },
+            "length": {
+              "type": ["integer", "null"],
+              "minimum": 0,
+              "description": "Overhang length in bases (0 for blunt)"
+            }
+          }
+        }
+      ]
+    },
+
+    "after_fill_ligation": {
+      "type": ["string", "null"],
+      "description": "Sequence remaining after fill-in of overhang and ligation. Source: NEB Recleavable Filled-in 5' Overhangs chart."
+    },
+
+    "recleavable_by": {
+      "description": "Enzymes that can recut the filled-in/ligated sequence. null = not applicable or unknown.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of enzyme names that recut the filled-in site"
+        }
+      ]
+    },
+
+    "methylation_sensitivity": {
+      "description": "Sensitivity to Dam, Dcm, and CpG methylation. null = no data. Source: NEB Dam-Dcm and CpG Methylation chart.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["dam", "dcm", "cpg"],
+          "properties": {
+            "dam": { "$ref": "#/$defs/methylationStatus" },
+            "dcm": { "$ref": "#/$defs/methylationStatus" },
+            "cpg": { "$ref": "#/$defs/methylationStatus" },
+            "source": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "iis_data": {
+      "description": "Extended data for Type IIS enzymes. null on all other enzyme types.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "heat_inactivation_possible": {
+              "type": ["boolean", "null"],
+              "description": "Whether the enzyme can be heat-inactivated"
+            },
+            "incubation_temp_c": {
+              "type": ["integer", "null"],
+              "description": "Recommended incubation temperature in Celsius"
+            },
+            "storage_temp": {
+              "type": ["string", "null"],
+              "description": "Storage temperature (e.g., '-20°C')"
+            },
+            "overhang_length": {
+              "type": ["integer", "null"],
+              "description": "Length of overhang generated in bases"
+            },
+            "isoschizomers_neb": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "NEB-listed isoschizomers for this Type IIS enzyme",
+              "default": []
+            }
+          }
+        }
+      ]
+    },
+
+    "buffer_activity": {
+      "description": "Buffer compatibility data. null = enzyme not commercially sold by NEB.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["system", "buffers", "source"],
+          "additionalProperties": false,
+          "properties": {
+            "system": {
+              "type": "string",
+              "enum": ["NEB", "Thermo FastDigest"]
+            },
+            "recommended_buffer": { "type": "string" },
+            "buffers": {
+              "type": "object",
+              "description": "Buffer name → % activity (integer 0-100 or string '<10')",
+              "properties": {
+                "r1.1":      { "$ref": "#/$defs/bufferActivity" },
+                "r2.1":      { "$ref": "#/$defs/bufferActivity" },
+                "r3.1":      { "$ref": "#/$defs/bufferActivity" },
+                "rCutSmart": { "$ref": "#/$defs/bufferActivity" }
+              },
+              "additionalProperties": { "$ref": "#/$defs/bufferActivity" }
+            },
+            "assay_conditions": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "incubation_temp": { "type": ["string", "null"] },
+                "heat_inactivation": { "type": ["string", "null"] },
+                "heat_inactivation_possible": { "type": ["boolean", "null"] },
+                "storage_temp": { "type": ["string", "null"] },
+                "unit_substrate": { "type": ["string", "null"] }
+              }
+            },
+            "source": {
+              "type": "object",
+              "required": ["name", "url", "retrieved"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string" },
+                "url": { "type": "string", "format": "uri-reference" },
+                "retrieved": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "media": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "path"],
+        "properties": {
+          "kind": { "type": "string", "enum": ["image", "pdf_page", "file"] },
+          "path": { "type": "string", "format": "uri-reference" },
+          "caption": { "type": "string" },
+          "alt_text": { "type": "string" },
+          "page": { "type": "integer", "minimum": 1 }
         }
       }
     },
 
-    "optimal_temperature_c": {
-      "type": "number"
+    "procedure": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "goal": { "type": "string" },
+        "prep": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["order", "text"],
+            "properties": {
+              "order": { "type": "integer", "minimum": 1 },
+              "text": { "type": "string" },
+              "why": { "type": "string" },
+              "warning": { "type": "string" }
+            }
+          },
+          "default": []
+        },
+        "common_mistakes": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "parameters": { "type": "array", "items": { "type": "string" }, "default": [] }
+      }
     },
 
-    "methylation_sensitivity": {
-      "type": "string"
-    },
-
-    "star_activity_notes": {
-      "type": "string"
-    },
-
-    "buffers": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-
-    "formula": {
-      "type": "string"
-    },
-
-    "cas_number": {
-      "type": "string"
-    },
-
-    "state": {
-      "type": "string",
-      "enum": ["solid", "liquid", "gas"]
-    },
-
-    "incompatibilities": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-
+    "optimal_temperature_c": { "type": "number" },
+    "star_activity_notes": { "type": "string" },
+    "buffers": { "type": "array", "items": { "type": "string" } },
+    "formula": { "type": "string" },
+    "cas_number": { "type": "string" },
+    "state": { "type": "string", "enum": ["solid", "liquid", "gas"] },
+    "incompatibilities": { "type": "array", "items": { "type": "string" } },
     "concentration": {
       "type": "object",
       "additionalProperties": false,
@@ -172,7 +331,6 @@
         "unit": { "type": "string" }
       }
     },
-
     "components": {
       "type": "array",
       "items": {
@@ -185,47 +343,71 @@
         }
       }
     },
+    "ph": { "type": "number" },
+    "working_concentration": { "type": "string" }
+  },
 
-    "ph": {
-      "type": "number"
+  "$defs": {
+    "bufferActivity": {
+      "description": "Percent activity in a buffer. Integer 0–100 or string '<10'.",
+      "oneOf": [
+        { "type": "integer", "minimum": 0, "maximum": 100 },
+        { "type": "string", "pattern": "^<\\d+$" }
+      ]
     },
-
-    "working_concentration": {
-      "type": "string"
+    "methylationStatus": {
+      "description": "Methylation sensitivity status for a single methylase.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "enum": [
+            "not_sensitive",
+            "blocked",
+            "blocked_overlapping",
+            "blocked_some_overlapping",
+            "impaired",
+            "impaired_overlapping",
+            "impaired_some_overlapping"
+          ]
+        }
+      ]
     }
   },
 
-
   "allOf": [
     {
-      "if": {
-        "properties": { "type": { "const": "restriction_enzyme" } }
-      },
+      "if": { "properties": { "type": { "const": "restriction_enzyme" } } },
       "then": {
         "required": ["recognition_sequence"],
-        "properties": {
-          "category": { "const": "enzyme" }
-        }
+        "properties": { "category": { "const": "enzyme" } }
       }
     },
     {
-      "if": {
-        "properties": { "type": { "const": "chemical" } }
-      },
-      "then": {
-        "properties": {
-          "category": { "const": "chemical" }
-        }
-      }
+      "if": { "properties": { "type": { "const": "chemical" } } },
+      "then": { "properties": { "category": { "const": "chemical" } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "buffer" } } },
+      "then": { "properties": { "category": { "const": "buffer" } } }
     },
     {
       "if": {
-        "properties": { "type": { "const": "buffer" } }
+        "properties": {
+          "type": {
+            "enum": [
+              "lab_equipment", "lab_procedure", "lab_safety",
+              "lab_sterility", "lab_documentation", "lab_calculation"
+            ]
+          }
+        }
       },
       "then": {
-        "properties": {
-          "category": { "const": "buffer" }
-        }
+        "properties": { "category": { "const": "practice" } },
+        "required": ["procedure", "media"],
+        "allOf": [
+          { "properties": { "procedure": { "required": ["steps"] } } }
+        ]
       }
     }
   ]

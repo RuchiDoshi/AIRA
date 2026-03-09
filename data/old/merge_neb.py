@@ -19,13 +19,34 @@ def parse_pct(val):
     except:
         return val if val else None
 
-# Build NEB lookup - strip footnote symbols including encoding artifacts (Â§, §, $, etc.)
-neb_lookup = {}
+def clean_name(name: str) -> str:
+    """Normalize NEB enzyme names to match REBASE entries."""
+    name = (name or "").strip()
+    # Fix mojibake (double-encoded UTF-8, e.g. Â® -> ®)
+    try:
+        name = name.encode('latin-1').decode('utf-8')
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        pass
+    name = name.replace('\xa0', ' ')                          # non-breaking space
+    name = re.sub(r'[®™]', '', name)                          # trademark symbols
+    name = re.sub(r'\s*\*+$', '', name)                       # trailing asterisks
+    name = re.sub(r'\s+', ' ', name).strip()
+    return name
+
+def base_name(name: str) -> str:
+    """Strip -HF, v2, -HF®v2 etc. to get the REBASE base name e.g. BsaI-HF®v2 -> BsaI."""
+    return re.sub(r'[-\s]*(HF|v\d+).*$', '', name, flags=re.IGNORECASE).strip()
+
+# ── Build NEB lookup ──────────────────────────────────────────────────────────
+neb_lookup = {}  # clean_name -> data
+neb_lookup_base = {}  # base_name -> data (fallback for HF variants)
+
 for row in neb['data']:
     if len(row) < 8:
         continue
     raw_name = row[0].strip()
-    clean_name = re.sub(r'[\s§$†‡Â®™\u00c2\u00a7\u00ae]+.*$', '', raw_name).strip()
+    cln  = clean_name(raw_name)
+    base = base_name(cln)
 
     r1  = parse_pct(row[4])
     r2  = parse_pct(row[5])
@@ -38,28 +59,39 @@ for row in neb['data']:
     if r3  is not None: buffers['r3.1']      = r3
     if rcs is not None: buffers['rCutSmart'] = rcs
 
-    neb_lookup[clean_name] = {
-        'recommended_buffer': row[3].replace('™', '').replace('®', '').strip(),
+    entry = {
+        'recommended_buffer': clean_name(row[3]),
         'buffers': buffers,
         'heat_inactivation': row[8] or None,
         'incubation_temp_c': row[9] or None,
         'unit_substrate': row[14] or None,
     }
 
+    neb_lookup[cln] = entry
+    # Store under base name as fallback (don't overwrite if base already has an entry)
+    if base and base not in neb_lookup_base:
+        neb_lookup_base[base] = entry
+
 print(f"NEB lookup entries: {len(neb_lookup)}")
+print(f"Base name fallback entries: {len(neb_lookup_base)}")
 print("Sample keys:", list(neb_lookup.keys())[:10])
 
-# Verify the problem enzymes are now found
-for test in ["AscI", "SexAI", "HindIII", "EcoRI"]:
-    print(f"  {test}: {'FOUND' if test in neb_lookup else 'MISSING'}")
+for test in ["BsaI", "AscI", "HindIII", "EcoRI", "BsmBI"]:
+    found_exact = test in neb_lookup
+    found_base  = test in neb_lookup_base
+    print(f"  {test}: {'EXACT' if found_exact else 'BASE' if found_base else 'MISSING'}")
 
+# ── Merge into enzymes ────────────────────────────────────────────────────────
 today = date.today().isoformat()
 matched = 0
 
 for enzyme in enzymes:
-    name = enzyme['name'].strip()
-    match = neb_lookup.get(name)
+    raw  = enzyme['name'].strip()
+    cln  = clean_name(raw)
+    base = base_name(cln)
 
+    match = neb_lookup.get(cln) or neb_lookup.get(raw) or neb_lookup_base.get(cln) or neb_lookup_base.get(base)
+       
     if match:
         matched += 1
         enzyme['buffer_activity'] = {
