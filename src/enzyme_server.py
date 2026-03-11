@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from datetime import date
 from typing import Any, Dict, List, Optional
 
 from rapidfuzz import fuzz, process
@@ -11,7 +10,6 @@ from mcp.server.fastmcp import FastMCP
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # project root
 DATA_FILES = [
     "enzymes.restriction.buffer.json",
-    "wetlab.practices.json"
 ]
 
 REAGENTS = []
@@ -67,8 +65,6 @@ def _get_item(name: str) -> Optional[Dict[str, Any]]:
 mcp = FastMCP("restriction-enzymes-mcp")
 
 
-# ── Existing tools (unchanged) ────────────────────────────────────────────────
-
 @mcp.tool()
 def get_reagent_details(name: str) -> Dict[str, Any]:
     """Flexible lookup by enzyme/reagent name. Returns full data record."""
@@ -120,33 +116,6 @@ def find_enzymes_by_sequence(sequence: str, limit: int = 25) -> Dict[str, Any]:
             if len(matches) >= limit:
                 break
     return {"query_sequence": sequence, "matches": matches}
-
-
-@mcp.tool()
-def get_practice_steps(name: str) -> Dict[str, Any]:
-    """Return procedure steps, safety info, and media for a wetlab practice."""
-    matched = best_name_match(name)
-    if not matched:
-        return {"found": False, "query": name}
-    item = NAME_TO_ITEM[matched.lower()]
-    procedure = item.get("procedure") or {}
-    safety = item.get("safety") or {}
-    return {
-        "found": True,
-        "match": matched,
-        "goal": procedure.get("goal"),
-        "steps": procedure.get("steps", []),
-        "ppe": safety.get("ppe", []),
-        "safety_notes": safety.get("notes"),
-        "hazards": item.get("hazards", []),
-        "media": item.get("media", [])
-    }
-
-
-@mcp.tool()
-def list_practices() -> List[str]:
-    """Return all available wetlab practice names."""
-    return [item["name"] for item in REAGENTS if item.get("category") == "practice"]
 
 
 @mcp.tool()
@@ -269,8 +238,6 @@ def check_double_digest(enzyme1: str, enzyme2: str, min_activity: int = 75) -> D
         "message": "No shared compatible buffer found." if not compatible else None
     }
 
-
-# ── New tools ─────────────────────────────────────────────────────────────────
 
 @mcp.tool()
 def get_enzyme_summary(name: str) -> Dict[str, Any]:
@@ -415,7 +382,6 @@ def find_ligation_compatible_enzymes(enzyme: str, limit: int = 20) -> Dict[str, 
     oh   = item.get("overhang")
 
     if not oh or oh.get("type") == "blunt":
-        # Blunt ends are compatible with all other blunt ends
         if oh and oh.get("type") == "blunt":
             blunt_enzymes = [
                 {"name": e["name"], "recognition_sequence": e.get("recognition_sequence")}
@@ -458,7 +424,6 @@ def find_ligation_compatible_enzymes(enzyme: str, limit: int = 20) -> Dict[str, 
             continue
         e_seq  = (eoh.get("sequence") or "").upper()
         e_type = eoh.get("type")
-        # Compatible: same overhang sequence and same type
         if e_seq == target_seq and e_type == target_type:
             compatible.append({
                 "name": e["name"],
@@ -502,13 +467,11 @@ def find_golden_gate_enzymes(
         oh   = item.get("overhang") or {}
         buffers = ba.get("buffers") or {}
 
-        # Filter by overhang length if specified
         oh_len = iis.get("overhang_length") or oh.get("length")
         if min_overhang_length is not None:
             if oh_len is None or oh_len < min_overhang_length:
                 continue
 
-        # Filter by CutSmart compatibility if requested
         if cutsmart_only:
             cs_activity = buffers.get("rCutSmart")
             if not isinstance(cs_activity, int) or cs_activity < 75:
@@ -526,7 +489,6 @@ def find_golden_gate_enzymes(
             "has_commercial_data": ba.get("recommended_buffer") is not None or iis.get("recommended_buffer") is not None
         })
 
-    # Sort: commercial data first, then by name
     results.sort(key=lambda x: (not x["has_commercial_data"], x["name"]))
 
     return {

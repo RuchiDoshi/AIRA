@@ -1,0 +1,432 @@
+[
+  {
+    "id": "safety:sharps_disposal",
+    "name": "Sharps Disposal",
+    "type": "waste_disposal",
+    "category": "safety",
+    "description": "Regulatory requirements and step-by-step packaging rules for disposing of sharps waste (needles, scalpels, lancets) and items that may become sharps when contaminated.",
+    "aliases": ["sharps waste", "needles disposal", "scalpel disposal", "lancet disposal", "sharps container"],
+    "keywords": ["red sharps container", "biohazard symbol", "two-thirds full", "autoclave", "incineration", "puncture-proof", "regulated waste", "yellow trace chemo"],
+    "hazards": ["needlestick injury", "biohazardous exposure", "puncture wounds to waste handlers"],
+    "safety": {
+      "ppe": ["nitrile gloves", "lab coat", "eye protection"],
+      "notes": "Never recap needles unless using a needle holder. Never carry sharps in clothing or lab coat pockets. Never leave an uncapped needle exposed in the work area."
+    },
+    "source_section": "Section 3.J.1 – Section 3.J.2",
+    "procedure": {
+      "goal": "Safely contain and decontaminate regulated sharps waste to prevent injury and biohazardous exposure to waste handlers.",
+      "always_sharps": [
+        "Needles (including syringes with needles and IV tubing with needles attached)",
+        "Lancets",
+        "Scalpel blades"
+      ],
+      "sharps_if_contaminated": [
+        "Broken glass",
+        "Razor blades",
+        "Fragile glass tubes, vials, or ampoules (including Pasteur pipettes)",
+        "Glass slides and cover slips"
+      ],
+      "steps": [
+        { "order": 1, "text": "Place all sharps waste immediately into a red, rigid, leak-proof, puncture-resistant plastic sharps container labeled with a biohazard symbol and equipped with a tight-fitting lid.", "warning": "Never use cardboard boxes for packaging sharps." },
+        { "order": 2, "text": "Use multiple small containers accessible in the work area rather than a single large one." },
+        { "order": 3, "text": "When the container is no more than 2/3 full, close the lid and apply autoclave tape over the lid and sides without blocking vent holes. Label with PI name and room number/building.", "warning": "Do not overfill. A container that is punctured or has needles sticking out must be placed inside a larger sharps container — do not attempt to empty it." },
+        { "order": 4, "text": "Decontaminate all sharps containers prior to disposal. Refer to your location-specific Biohazardous Waste Flow Chart for site-specific treatment options (autoclave vs. off-site incineration).", "warning": "Sharps used with flammable, reactive, corrosive, or toxic hazardous chemicals are NOT safe to autoclave — package in a red container and use a waste contractor for off-site treatment." },
+        { "order": 5, "text": "For trace chemotherapy or hazardous drug sharps: use a yellow trace chemo sharps container (biohazard symbol). Do NOT autoclave yellow containers — they must be sent off-site for incineration." },
+        { "order": 6, "text": "EH&S does not collect sharps containers. Check with your department for the existing sharps disposal waste stream. Contact EH&S Biological Safety at ehsbio@uw.edu if unsure." }
+      ],
+      "common_mistakes": [
+        "Using cardboard boxes instead of red rigid containers",
+        "Overfilling containers past the 2/3 mark",
+        "Autoclaving sharps contaminated with hazardous chemicals",
+        "Autoclaving yellow trace chemo sharps containers",
+        "Recapping needles without a needle holder"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:pipette_tip_disposal",
+    "name": "Pipette Tip and Lab Plastic Disposal",
+    "type": "waste_disposal",
+    "category": "safety",
+    "description": "Disposal rules for micropipette tips, serological pipettes, syringes without needles, and other plastic lab items depending on whether they are contaminated with biohazardous material.",
+    "aliases": ["pipette tips", "micropipette tips", "lab plastic", "biohazardous lab glass", "tip disposal"],
+    "keywords": ["biohazardous lab glass", "pipette box", "autoclave", "biohazard bag", "contaminated tips", "non-contaminated tips", "recycle tip boxes"],
+    "hazards": ["biohazardous exposure", "puncture wounds to waste handlers if improperly packaged"],
+    "safety": {
+      "ppe": ["nitrile gloves", "lab coat"],
+      "notes": "Contaminated tips must be decontaminated before disposal. Non-contaminated tip boxes may be recycled."
+    },
+    "source_section": "Section 3.J.3 – Section 3.J.4 and Section 3.I.2",
+    "procedure": {
+      "goal": "Route pipette tips and lab plastic waste to the correct stream based on contamination status.",
+      "contaminated_items": [
+        "Micropipette tips exposed to biohazardous material (including recombinant or synthetic DNA/RNA)",
+        "Serological pipettes",
+        "Syringes without needles",
+        "Test tubes",
+        "Swabs/sticks",
+        "Any other contaminated item that could puncture a biohazard bag"
+      ],
+      "steps": [
+        { "order": 1, "text": "Determine contamination status: are the tips contaminated with biohazardous material or recombinant/synthetic DNA/RNA?" },
+        { "order": 2, "text": "CONTAMINATED — Package in a puncture-proof container that can be autoclaved, such as a commercially available pipette box/keeper. OR use a sturdy cardboard box lined with a biohazard bag, labeled with the biohazard symbol, 'Laboratory Glass,' and PI name and room number.", "warning": "Biohazardous lab glass and plastic MUST be decontaminated (autoclaved) before disposal." },
+        { "order": 3, "text": "CONTAMINATED — After autoclaving, refer to your location-specific Biohazardous Waste Flow Chart for final disposal instructions." },
+        { "order": 4, "text": "NON-CONTAMINATED, PUNCTURE-RISK — Items that are not biohazardous but could puncture a regular waste bag (e.g., Pasteur pipettes, glass slides, empty test tubes, razor blades) go in a lab glass box: a sturdy cardboard box lined with plastic, sealed with pre-printed lab glass tape. Box must not exceed 25 lbs. Label with PI name and room number. Place sealed box alongside regular waste for custodial pickup.", "warning": "Never use a lab glass box for chemicals, sharps, biohazardous materials, or liquid waste." },
+        { "order": 5, "text": "NON-CONTAMINATED PLASTIC TIP BOXES/TRAYS — UW Recycling encourages recycling pipette tip boxes and trays through vendors with recycling programs. If unable, dispose of tip boxes as mixed recycling and tip trays as garbage." }
+      ],
+      "common_mistakes": [
+        "Placing contaminated tips in regular trash without autoclaving",
+        "Using a regular waste bag instead of a puncture-proof container for contaminated tips",
+        "Putting lab glass in regular trash where it can puncture the bag and injure waste handlers",
+        "Overfilling lab glass boxes beyond 25 lbs"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:hazardous_waste_disposal",
+    "name": "Hazardous Chemical Waste Disposal",
+    "type": "waste_disposal",
+    "category": "safety",
+    "description": "What qualifies as hazardous waste, accumulation rules, labeling requirements, trash disposal rules (what is and is not allowed), and how to request EH&S chemical waste collection.",
+    "aliases": ["chemical waste", "hazardous waste", "waste disposal", "waste collection", "EHS waste pickup"],
+    "keywords": ["UW hazardous waste label", "MyChem", "accumulation limits", "flammable", "corrosive", "reactive", "toxic", "carcinogenic", "non-hazardous", "trash disposal", "prohibited trash"],
+    "hazards": ["chemical exposure", "fire risk", "environmental contamination", "regulatory violation"],
+    "safety": {
+      "ppe": ["nitrile gloves", "lab coat", "eye protection"],
+      "notes": "Label waste containers as soon as any waste is placed in them. Never pour chemicals down the drain without verifying sewer discharge approval. Never leave unlabeled containers — they are treated as hazardous waste."
+    },
+    "source_section": "Section 3.A – Section 3.E",
+    "procedure": {
+      "goal": "Correctly identify, label, accumulate, and request collection of hazardous chemical waste in compliance with UW and Washington State regulations.",
+      "what_qualifies_as_hazardous": [
+        "Flammable/ignitable (flash point <140°F or capable of causing fire through friction, heat, or spontaneous chemical changes)",
+        "Corrosive (pH ≤2 or ≥12.5, or capable of corroding steel)",
+        "Reactive (unstable, reacts violently with water, or can generate toxic gases)",
+        "Toxic (contains RCRA-listed toxic constituents above threshold concentrations)",
+        "Carcinogenic (known, probable, or suspected carcinogens)"
+      ],
+      "steps": [
+        { "order": 1, "text": "Place waste in an appropriate, compatible container. Affix a UW Hazardous Waste Label immediately upon placing any waste in the container. Fill out the label completely.", "warning": "Unlabeled containers are treated as hazardous waste by custodial staff. Do NOT store waste in open or damaged containers." },
+        { "order": 2, "text": "Segregate incompatible waste streams (e.g., flammables away from oxidizers, acids away from bases)." },
+        { "order": 3, "text": "Follow accumulation limits. Check with EH&S for current satellite accumulation limits for your lab." },
+        { "order": 4, "text": "Request chemical waste collection via the EH&S online Chemical Waste Collection Request form (one-time) or Routine Chemical Waste Collection Request (if waste is generated regularly). Contact: chmwaste@uw.edu or 206.616.5835." },
+        { "order": 5, "text": "For TRASH disposal of non-hazardous chemicals: deface labels, securely double-bag, and label 'non-hazardous' before placing in trash." }
+      ],
+      "prohibited_in_trash": [
+        "Hazardous chemical waste (as defined above)",
+        "Known, probable, or suspected carcinogens, irritants, and sensitizers",
+        "Free liquids of any type",
+        "Pressurized vessels (including non-empty aerosol cans)",
+        "Laboratory glass and sharps",
+        "Radioactive waste",
+        "Batteries",
+        "Mercury (including thermometers)",
+        "Biohazardous waste"
+      ],
+      "empty_container_rules": [
+        "A container is legally empty when: (1) contents removed by normal means (inverting, draining, shaking, scraping), AND (2) no more than 3% of contents remain.",
+        "Extremely hazardous waste or pesticide containers must be triple-rinsed — rinseate is also hazardous waste.",
+        "P-listed empty containers must be disposed of as hazardous waste regardless.",
+        "Chemotherapy/hazardous drug empty containers: dispose as trace chemotherapy waste."
+      ],
+      "contaminated_items_in_trash": "Used gloves and similar items (not grossly contaminated) can go in the trash. Grossly contaminated items (from spill cleanup, heavy chemical residue) must be managed as hazardous chemical waste.",
+      "common_mistakes": [
+        "Leaving waste unlabeled or with defaced original labels",
+        "Pouring hazardous chemicals down the drain without verifying approval",
+        "Allowing non-empty chemical containers to evaporate in the fume hood (illegal)",
+        "Mixing incompatible waste streams in the same container",
+        "Placing free liquids in trash"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:spill_response",
+    "name": "Chemical Spill Response",
+    "type": "emergency_response",
+    "category": "safety",
+    "description": "How to assess and respond to small vs. large chemical spills using the S.W.I.M. framework, when to evacuate vs. clean up yourself, PPE requirements, and reporting obligations.",
+    "aliases": ["chemical spill", "spill cleanup", "spill kit", "spill response", "hazardous spill"],
+    "keywords": ["S.W.I.M.", "small spill", "large spill", "pull fire alarm", "evacuate", "spill kit", "absorbent", "PPE", "SDS", "eyewash", "safety shower", "206.543.0467", "OARS", "baking soda"],
+    "hazards": ["chemical exposure", "inhalation risk", "skin and eye contact", "fire or explosion risk for flammables"],
+    "safety": {
+      "ppe": ["lab coat or Tyvek coveralls", "chemical splash goggles", "SilverShield or chemical-compatible gloves", "nitrile gloves", "shoe covers if needed"],
+      "notes": "Respiratory protection may be required for large spills or volatile chemicals outside a fume hood — requires prior fit testing and training. When in doubt, evacuate and call EH&S."
+    },
+    "source_section": "Section 9.B.4 and Section 9.A.2",
+    "procedure": {
+      "goal": "Respond quickly and safely to chemical spills, protecting personnel from exposure while preventing environmental contamination.",
+      "decision_guide": {
+        "small_spill_clean_yourself": "Spill is within laboratory personnel capabilities: confined to a small area, involves a chemical you are trained on, risk of injury or exposure is low, and your PPE is adequate for the cleanup.",
+        "large_spill_evacuate": "Spill poses a danger to others in the surrounding area, involves a reactive/volatile/corrosive/toxic/carcinogenic/reproductive toxicant, occurs outside a fume hood in quantity, or cleanup otherwise exceeds lab capabilities. Pull the fire alarm and evacuate.",
+        "always_call_911": "Any life-threatening emergency or serious personal injury/exposure."
+      },
+      "swim_framework": {
+        "S": "STOP the spill. Cover with absorbent material immediately.",
+        "W": "WARN others. Alert people in the immediate area of the spill.",
+        "I": "ISOLATE the spill and secure the area. Close doors if possible.",
+        "M": "MINIMIZE your exposure by wearing PPE and avoiding contact, inhalation, or ingestion. Vacate the area if necessary. Wash hands after handling spill materials."
+      },
+      "steps": [
+        { "order": 1, "text": "Immediately assess the spill. Call 911 for any life-threatening emergency. If anyone has been exposed to the chemical, go to Section 9.B.1 (Serious Injury/Exposure) first." },
+        { "order": 2, "text": "For LARGE spills (danger to others, volatile chemicals, large quantity, or exceeds lab capabilities): Pull the nearest fire alarm to evacuate the building. Call 9-1-1 once safe. Provide SDS information to first responders. Contact EH&S Spill Line at 206.543.0467 (business hours) or UW Police at 206.685.8973 (after hours) to arrange hazardous spill cleanup contractor." },
+        { "order": 3, "text": "For SMALL spills (trained personnel, low risk, confined): Follow S.W.I.M. Use your lab's chemical spill kit. Wear appropriate PPE (minimum: lab coat, SilverShield or chemical-compatible gloves, splash goggles)." },
+        { "order": 4, "text": "Absorb the spill using universal spill pads. Neutralize acids with baking soda if applicable. Collect all cleanup materials in yellow hazardous waste bags." },
+        { "order": 5, "text": "Dispose of spill cleanup materials as hazardous waste — label containers and submit a Chemical Waste Collection Request. Exception: neutralized acid spills soaked in paper towels or baking soda may follow trash/sink guidelines if non-hazardous after treatment. Solid/non-hazardous chemicals may be double-bagged and labeled 'non-hazardous' for trash." },
+        { "order": 6, "text": "If anyone was exposed: flush eyes for at least 15 minutes at the eyewash (hold eyelids open). Flush skin for at least 15 minutes with tepid water; use safety shower if needed and remove contaminated clothing. For hydrofluoric acid skin contact: flush 5 minutes then apply calcium gluconate gel immediately. Call 911." },
+        { "order": 7, "text": "Report all spills within 24 hours via the Online Accident Reporting System (OARS). Notify EH&S immediately (206.543.7262) if the spill involves recombinant/synthetic DNA/RNA, radioactive materials, fire, hospitalization, amputation, or fatality." },
+        { "order": 8, "text": "After the incident: replace used cleanup materials, update the applicable SOP, and discuss as a group what could have been done differently." }
+      ],
+      "spill_kit_contents": [
+        "Universal spill pads (for acid, base, oil, solvents)",
+        "Baking soda (to neutralize acids)",
+        "Dustpan and whisk broom",
+        "Yellow hazardous waste bags (heavy-duty)",
+        "5-gallon plastic bucket with screw-top lid (to store kit and hold bagged waste)",
+        "Chemical splash goggles",
+        "SilverShield gloves (impervious to most chemicals)",
+        "Nitrile gloves (multiple sizes)",
+        "EH&S Chemical Waste Collection Request forms and hazardous waste labels"
+      ],
+      "emergency_contacts": {
+        "EHS_spill_line_business_hours": "206.543.0467 (Mon–Fri 8am–5pm)",
+        "after_hours": "Call UW Police 206.685.8973 and ask for EH&S on-call",
+        "medical_exposure": "UW Employee Health Center 206.685.1026",
+        "life_threatening": "911"
+      },
+      "common_mistakes": [
+        "Attempting to clean up a large or volatile spill without calling EH&S first",
+        "Not wearing adequate PPE before approaching the spill",
+        "Disposing of spill cleanup materials in regular trash without evaluating hazardous waste status",
+        "Failing to report the incident via OARS within 24 hours",
+        "Not flushing exposed skin or eyes for the full 15 minutes"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:biohazardous_spill_response",
+    "name": "Biohazardous Spill Response",
+    "type": "emergency_response",
+    "category": "safety",
+    "description": "Step-by-step cleanup for biohazardous spills including spill kit contents, 10% bleach protocol, contact time requirements, and mandatory EH&S notification for recombinant nucleic acid spills.",
+    "aliases": ["biohazard spill", "BSC spill", "biological spill", "bio spill cleanup", "recombinant DNA spill"],
+    "keywords": ["10% bleach", "30 minutes", "contact time", "biohazard bag", "paper towels", "recombinant nucleic acids", "EHS biosafety", "206.221.7770", "spill kit"],
+    "hazards": ["biohazardous agent exposure", "aerosol generation", "contamination spread"],
+    "safety": {
+      "ppe": ["nitrile gloves", "lab coat", "eye protection / face shield", "surgical mask (BSL-2 and higher)"],
+      "notes": "Do not attempt to clean up a spill of select agents, BSL-3 materials, or large-volume BSL-2 spills without consulting EH&S. Notify EH&S Biosafety immediately for any spill involving recombinant or synthetic nucleic acids."
+    },
+    "source_section": "Section 9 – Spill Response Poster; EH&S Biohazardous Spill guidance",
+    "procedure": {
+      "goal": "Contain and decontaminate a biohazardous spill to prevent exposure and environmental contamination.",
+      "steps": [
+        { "order": 1, "text": "Alert others in the immediate area. If the spill is large or involves airborne agents, evacuate the area and contact EH&S Biosafety." },
+        { "order": 2, "text": "Put on appropriate PPE: nitrile gloves, lab coat, eye protection. Change gloves if they become contaminated." },
+        { "order": 3, "text": "Cover the spill with paper towels or absorbent material to contain the spill and reduce aerosol generation." },
+        { "order": 4, "text": "Pour freshly prepared 10% bleach solution around the outer edge of the spill and allow it to flow into the spill.", "warning": "Do not pour bleach directly onto the center of the spill — this can generate aerosols." },
+        { "order": 5, "text": "Allow a minimum 30 minutes of contact time before wiping up." },
+        { "order": 6, "text": "Wipe up the absorbed spill and bleach-soaked materials. Dispose of all cleanup materials as biohazardous waste." },
+        { "order": 7, "text": "Clean the spill area with fresh 10% bleach or an EPA-registered disinfectant and allow to air dry." },
+        { "order": 8, "text": "If the spill contains recombinant or synthetic nucleic acids: notify EH&S Biosafety as soon as possible at 206.221.7770 (business hours) or UW Police 206.685.8973 (after hours)." },
+        { "order": 9, "text": "Submit an incident report via OARS within 24 hours." }
+      ],
+      "biohazard_spill_kit_contents": [
+        "Freshly prepared 10% bleach solution",
+        "Paper towels and/or absorbent pads",
+        "Biohazard waste bags",
+        "Nitrile gloves (multiple sizes)",
+        "Splash goggles or face shield",
+        "Forceps or tongs for handling broken glass fragments"
+      ],
+      "emergency_contacts": {
+        "EHS_biosafety_business_hours": "206.221.7770 (Mon–Fri 8am–5pm)",
+        "after_hours": "Call UW Police 206.685.8973 and ask for EH&S on-call"
+      },
+      "common_mistakes": [
+        "Pouring bleach directly on spill center (generates aerosols)",
+        "Wiping up before 30-minute contact time has elapsed",
+        "Using old/diluted bleach instead of freshly prepared 10% solution",
+        "Failing to notify EH&S for recombinant nucleic acid spills",
+        "Disposing of cleanup materials in regular trash instead of biohazard waste"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025 / UW EH&S Spill Response Poster",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:ppe_requirements",
+    "name": "Personal Protective Equipment (PPE) Requirements",
+    "type": "lab_safety",
+    "category": "safety",
+    "description": "Complete PPE requirements for laboratory work including eye protection, lab coats, gloves (selection, inspection, removal), respirators, and rules for wearing PPE outside the lab.",
+    "aliases": ["PPE", "gloves", "lab coat", "eye protection", "goggles", "respirator", "personal protective equipment"],
+    "keywords": ["nitrile gloves", "latex prohibited", "splash goggles", "face shield", "lab coat knee-length", "SilverShield", "flame-resistant", "no open-toed shoes", "contact lenses", "remove gloves hallway"],
+    "hazards": ["chemical exposure", "biohazardous exposure", "physical injury", "fire"],
+    "safety": {
+      "ppe": ["appropriate PPE as described in procedure"],
+      "notes": "PPE is the LAST line of defense, not the first. Use engineering controls (fume hood, containment) first. Remove all PPE before exiting the laboratory."
+    },
+    "source_section": "Section 5.C",
+    "procedure": {
+      "goal": "Select, wear, and remove PPE correctly to protect against laboratory hazards.",
+      "eye_protection": {
+        "always_recommended": "EH&S recommends eye protection at all times in the lab as best practice.",
+        "contact_lenses": "Avoid wearing contact lenses in the lab. If worn, always use chemical splash goggles or a face shield and notify your PI.",
+        "safety_glasses": "Provide impact protection only — not for chemical splash, dusts, or hot particles.",
+        "splash_goggles": "Required when there is a danger of chemical splashing. Must have splash-proof (non-vented) sides.",
+        "face_shield": "Used IN ADDITION to safety glasses/goggles for maximum face and neck protection from flying particles and harmful liquids."
+      },
+      "apparel_rules": [
+        "Shoes that fully cover the feet — no open-toed shoes, no sandals, mesh athletic shoes not recommended.",
+        "Cover core body (no crop tops) and fully cover legs.",
+        "Preferred materials: cotton, wool, resistant polyester. Avoid synthetic fabrics (acrylics, rayon) that dissolve in solvents or melt during fires.",
+        "No loose, flowing garments or scarves.",
+        "No loose jewelry (bracelets, watches, necklaces) — can catch on equipment.",
+        "Tie back long hair.",
+        "Remove headphones/earbuds — they reduce hazard awareness."
+      ],
+      "lab_coat_rules": [
+        "Required for ALL work with hazardous chemicals, biohazards, or radiological hazards.",
+        "Must extend to the knee and be fully buttoned.",
+        "Keep lab coats in the work area — do not take to common areas, offices, or food service.",
+        "Flame-resistant lab coats required for highly flammable, pyrophoric, or potentially explosive chemicals.",
+        "Must be laundered through a UW contracted vendor — NOT at home.",
+        "Work with biohazardous agents requires medical laundering service."
+      ],
+      "glove_rules": {
+        "when_to_wear": "Whenever working with chemicals, biohazards, radioactive materials, rough/sharp objects, or very hot/cold materials.",
+        "when_NOT_to_wear": [
+          "Near unguarded moving machinery (risk of entanglement).",
+          "When touching shared surfaces: phones, computers, doorknobs, elevator buttons.",
+          "Outside the laboratory."
+        ],
+        "selection": "Choose gloves based on the specific chemical/hazard. Review the SDS and manufacturer guidance. Do NOT use latex gloves — they provide little chemical protection and can cause allergic reactions. Latex is prohibited in labs affiliated with clinical services.",
+        "inspection": "Inspect before each use; discard if discolored, punctured, or torn. Squeeze to check for air leaks — do not blow into gloves.",
+        "removal": "Remove without touching the outside of the glove to skin or clothing. Wash hands with soap and warm water after removal.",
+        "contaminated_gloves": "Carefully remove contaminated gloves and place in a plastic bag. If grossly contaminated with hazardous chemicals, manage as hazardous waste."
+      },
+      "ppe_outside_lab": "Remove ALL PPE (gloves, lab coat) before exiting the laboratory. Never wear gloves in hallways, restrooms, elevators, offices, or cafeterias.",
+      "common_mistakes": [
+        "Wearing gloves in hallways, elevators, or other common areas",
+        "Using contact lenses without splash goggles",
+        "Wearing open-toed shoes or synthetic fabric clothing",
+        "Not fully buttoning lab coat or wearing a coat that does not reach the knee",
+        "Reusing disposable gloves",
+        "Taking lab coats home for laundering"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:basic_lab_practices",
+    "name": "Basic Laboratory Safety Practices",
+    "type": "lab_safety",
+    "category": "safety",
+    "description": "Foundational daily lab safety rules covering chemical exposure prevention, working alone policies, hand washing, food and drink prohibitions, emergency exit access, housekeeping, and sharps safety basics.",
+    "aliases": ["lab safety basics", "chemical exposure prevention", "housekeeping", "working alone", "food in lab"],
+    "keywords": ["working alone", "fume hood", "wash hands", "no food", "no drink", "emergency exits", "housekeeping", "lab coat pocket sharps", "pipet bulb", "no mouth suction"],
+    "hazards": ["chemical ingestion", "chemical inhalation", "skin absorption", "injection via sharps"],
+    "safety": {
+      "ppe": ["gloves", "lab coat", "eye protection"],
+      "notes": "PPE is a last line of defense — prioritize engineering controls and safe work practices first."
+    },
+    "source_section": "Section 2.A",
+    "procedure": {
+      "goal": "Establish safe baseline behaviors to prevent chemical exposure and laboratory accidents.",
+      "steps": [
+        { "order": 1, "text": "Working alone: Assess if procedures are safe to perform alone. Do NOT work alone if using highly hazardous substances. Inform nearby lab personnel of your presence or set up an accountability check-in with your supervisor." },
+        { "order": 2, "text": "Prevent skin contact/absorption: Wear appropriate PPE (gloves, goggles, lab coat). Use containment equipment and check connections regularly. Clean up spills immediately. Never tape pipettes to bottles of hazardous solutions for dedicated dispensing." },
+        { "order": 3, "text": "Prevent inhalation: Use a fume hood for all volatile or aerosolized chemicals, even low-toxicity ones. Cap chemicals as soon as possible (vented caps are NOT permitted for storage). Limit smelling chemicals. Investigate unfamiliar odors." },
+        { "order": 4, "text": "Prevent ingestion: Do not taste any chemicals. NEVER use mouth suction to pipette chemicals or start a siphon — use a pipet bulb or aspirator. Avoid touching your face while working with chemicals." },
+        { "order": 5, "text": "Prevent injection: Reduce or eliminate needle use. Dispose of needles immediately after use. Use safety devices that prevent needle sticks. Promptly place all sharps waste in a red sharps container. Do NOT carry any lab sharp in clothing or lab coat pockets." },
+        { "order": 6, "text": "Hand washing: Wash hands with soap and warm water after removing gloves and before leaving the lab. Never wash with organic solvents." },
+        { "order": 7, "text": "No food or drink: Food and drink are prohibited from being stored, prepared, or consumed in university laboratories. Do not use laboratory glassware or utensils for food. Lab refrigerators and cold rooms cannot store food or beverages." },
+        { "order": 8, "text": "Emergency access: Keep emergency equipment (eyewashes, safety showers, fire extinguishers, pull stations) directly accessible. No items stored within 16-inch radius of emergency showers. Emergency equipment cannot require going through more than one door or a locked door." },
+        { "order": 9, "text": "Housekeeping: Keep bench tops clear, aisles unobstructed. Store chemicals upright and orderly. Keep fume hoods uncluttered. Minimize trash accumulation. Never use broken containers or broken glassware." }
+      ],
+      "common_mistakes": [
+        "Mouth-pipetting chemicals",
+        "Carrying sharps in lab coat pockets",
+        "Blocking emergency equipment with temporary storage",
+        "Storing or consuming food in the laboratory",
+        "Using vented caps for chemical storage",
+        "Working alone with highly hazardous substances without an accountability plan"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  },
+
+  {
+    "id": "safety:emergency_eyewash_shower",
+    "name": "Emergency Eyewash and Safety Shower Use",
+    "type": "emergency_response",
+    "category": "safety",
+    "description": "When and how to use emergency eyewash stations and safety showers, maintenance requirements, and obstruction rules.",
+    "aliases": ["eyewash", "safety shower", "eye exposure", "chemical burn", "drench hose", "eye flush"],
+    "keywords": ["15 minutes", "hold eyelids open", "tepid water", "16-inch radius", "not obstructed", "flush eyes", "flush skin", "call 911", "hydrofluoric acid", "calcium gluconate"],
+    "hazards": ["chemical eye exposure", "chemical skin contact", "burns"],
+    "safety": {
+      "ppe": ["none required to use emergency equipment — remove any contaminated clothing during shower use"],
+      "notes": "Eyewashes and showers are obstructed if items are stored within a 16-inch radius, if they require going through more than one door, or if the door is locked."
+    },
+    "source_section": "Sections 4.A and 9.B.2",
+    "procedure": {
+      "goal": "Immediately and adequately flush chemical exposure from eyes or skin to minimize injury.",
+      "steps": [
+        { "order": 1, "text": "EYE EXPOSURE: Immediately go to the eyewash station. Hold eyelids open and flush eyes continuously for at least 15 minutes. Call 911 as soon as possible (have someone else call while you flush)." },
+        { "order": 2, "text": "SKIN EXPOSURE (toxic or corrosive chemical): Flush the affected area with tepid water for at least 15 minutes. Use the safety shower if necessary and remove contaminated clothing during flushing." },
+        { "order": 3, "text": "HYDROFLUORIC ACID skin contact (special case): Flush for 5 minutes (not 15), then immediately apply calcium gluconate gel if available. Call 911 immediately." },
+        { "order": 4, "text": "After flushing: seek medical evaluation at UW Campus Health Services (206.685.1026) or the Emergency Room. Bring the SDS for the chemical involved." },
+        { "order": 5, "text": "Submit an incident report via OARS within 24 hours." }
+      ],
+      "maintenance_note": "Eyewash stations must be flushed weekly to maintain function (Eyewash Flushing Logs required). Safety showers should be tested annually. Access must never be blocked.",
+      "common_mistakes": [
+        "Stopping the flush before 15 minutes are complete",
+        "Not calling 911 during or after flushing",
+        "Applying calcium gluconate before flushing for hydrofluoric acid (flush first, then gel)",
+        "Blocking access to eyewash or shower with equipment or temporary storage"
+      ]
+    },
+    "source": {
+      "name": "UW Laboratory Safety Manual, December 2025",
+      "url": "https://www.ehs.washington.edu/system/files/resources/lsm.pdf",
+      "retrieved": "2026-03-10"
+    }
+  }
+]
